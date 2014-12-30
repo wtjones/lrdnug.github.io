@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Game Development with XNA Studio (Part 1 of 3)
+title: Game Development with XNA Studio (Part 3 of 3)
 speaker: Richard Broyles
 ---
 
