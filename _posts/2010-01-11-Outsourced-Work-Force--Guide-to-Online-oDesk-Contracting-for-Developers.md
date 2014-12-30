@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Outsourced Work Force – Guide to Online oDesk Contracting for Developers
+title: Outsourced Work Force - Guide to Online oDesk Contracting for Developers
 speaker: Robert Gray
 ---
 
@@ -10,8 +10,7 @@ Many companies developing software products create their products on a phased pr
 
 ### About the Speaker:
 
-Robert Gray  
-President  
+Robert Gray - President  
 Matters in Motion, Inc.  
 [http://www.mattersinmotion.com](http://www.mattersinmotion.com)
 
