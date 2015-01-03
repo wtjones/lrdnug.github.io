@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intro to unity 3d
+title: Holiday Social and Officer Elections
 speaker: N/A
 ---
 
