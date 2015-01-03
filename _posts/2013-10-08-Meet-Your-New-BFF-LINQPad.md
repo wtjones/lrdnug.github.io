@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meet Your New BFF: LINQPad
+title: Meet Your New BFF LINQPad
 speaker: Abby Sims
 ---
 
