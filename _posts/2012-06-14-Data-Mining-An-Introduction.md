@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Mining: An Introduction
+title: Data Mining - An Introduction
 speaker: Erich Peterson
 ---
 

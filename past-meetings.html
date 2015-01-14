@@ -4,22 +4,28 @@ layout: default
 
 <div class="posts">
     <h2>Past Meetings</h2>
-  {% capture currentYear %}{{ page.date | date: "%Y" }}{% endcapture %}
+    {% capture currentYear %}{{ page.date | date: "%Y" }}{% endcapture %}
+    {% assign endYearSection = false %}
 
-  {% for post in site.posts %}
-    <!-- Year -->
-    {% capture currentPostYear %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% for post in site.posts %}
+      <!-- currentPostYear before {{ currentPostYear }} -->
+      {% capture currentPostYear %}{{ post.date | date: "%Y" }}{% endcapture %}
+      <!-- currentPostYear after {{ currentPostYear }} -->
 
     {% if currentPostYear != currentYear %}
+      {% if endYearSection == true %}
+    </dl>
+      {% assign endYearSection = false %}
+      <!-- endYearSection = {{ endYearSection }} -->
+      {% endif %}
     <dl class="dl-horizontal">
-        <h4>{{ currentYear }}</h4>
+        <h4>{{ currentPostYear }}</h4>
+        {% assign currentYear = currentPostYear %}
+        {% assign endYearSection = true %}
+        <!-- endYearSection = {{ endYearSection }} -->
     {% endif %}
 
         <dt>{{ post.date | date: "%B %Y" }}</dt>
         <dd><a href="{{ site.baseurl }}{{ post.url }}"><em>{{ post.speaker }}</em> - {{ post.title }}</a></dd>
-    {% if currentPostYear != currentYear %}
-        {% capture currentYear %}{{ currentPostYear }}{% endcapture %}
-    </dl>
-    {% endif %}
   {% endfor %}
 </div>
