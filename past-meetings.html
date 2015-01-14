@@ -6,19 +6,20 @@ layout: default
     <h2>Past Meetings</h2>
   {% capture currentYear %}{{ page.date | date: "%Y" }}{% endcapture %}
 
-    <dl class="dl-horizontal">
-        <h4>{{ currentYear }}</h4>
   {% for post in site.posts %}
     <!-- Year -->
     {% capture currentPostYear %}{{ post.date | date: "%Y" }}{% endcapture %}
 
     {% if currentPostYear != currentYear %}
-        <h4>{{ currentPostYear }}</h4>
-        {% capture currentYear %}{{ currentPostYear }}{% endcapture %}
+    <dl class="dl-horizontal">
+        <h4>{{ currentYear }}</h4>
     {% endif %}
 
         <dt>{{ post.date | date: "%B %Y" }}</dt>
         <dd><a href="{{ site.baseurl }}{{ post.url }}"><em>{{ post.speaker }}</em> - {{ post.title }}</a></dd>
+    {% if currentPostYear != currentYear %}
+        {% capture currentYear %}{{ currentPostYear }}{% endcapture %}
     </dl>
+    {% endif %}
   {% endfor %}
 </div>
