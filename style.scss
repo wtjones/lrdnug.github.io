@@ -304,6 +304,11 @@ div.meetingInfo {
   float: right;
   font-size: 12px;
   margin-top: 10px;
+
+  @include mobile {
+    float: none;
+    font-size: 11px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
