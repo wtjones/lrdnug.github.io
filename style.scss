@@ -209,7 +209,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 10px; // @TODO: Vertically middle align
   font-family: $helveticaNeue; 
   font-size: 18px;
   
@@ -285,6 +285,25 @@ footer {
   width: 150px;
   text-align: right;
   margin-right: 10px;  
+}
+
+article.firstPost h4, article.firstPost h4 a {
+  font-size: 30px;
+}
+article.firstPost h3#about-the-topic {
+  font-size: 25px;
+}
+article.firstPost div.entry, article.firstPost a {
+  font-size: 20px;
+}
+article.firstPost a.read-more {
+  text-transform: uppercase;
+}
+
+div.meetingInfo {
+  float: right;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
