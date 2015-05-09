@@ -3,7 +3,7 @@ layout: post
 title: The Robust World of Laravel
 speaker: Taylor Ottwell
 ---
-﻿
+
 ### Quoted from [Venture Center Code.IT Website](https://www.venturecenter.co/events/codeit)
 
 "Join us for The Venture Center’s Code•IT! Series presentation with Laravel Developer, Taylor Otwell.
