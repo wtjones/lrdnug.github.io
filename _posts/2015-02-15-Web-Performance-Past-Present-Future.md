@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Performance: Past Present Future
+title: Web Performance - Past Present Future
 speaker: Matt Shull
 ---
 
