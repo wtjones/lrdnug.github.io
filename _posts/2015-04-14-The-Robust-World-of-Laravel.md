@@ -4,11 +4,6 @@ title: The Robust World of Laravel
 speaker: Taylor Ottwell
 ---
 
-<span style="color:red;font-weight:bold">** We are not meeting at The Innovation Hub this week. There is a great speaker at The Venture Center occurring simultaneously. You can find details about the presentation below.**<br>
-<br>
-We will Resume our normal schedule and Location May 11th at the Innovation Hub With Speaker Christopher Steven. Christopher will be presenting on "Lessons Learned from BUILD 2015"</span>
-
-
 ### Quoted from [Venture Center Code.IT Website](https://www.venturecenter.co/events/codeit)
 
 "Join us for The Venture Center’s Code•IT! Series presentation with Laravel Developer, Taylor Otwell.
