@@ -1,20 +1,7 @@
----
+﻿---
 layout: post
-title: The Robust World of Laravel
-speaker: Taylor Ottwell
+title: Build Aftermath: From Windows 10 to HoloLens and everything in betweenl
+speaker: Chris Steven
 ---
 
-<span style="color:red;font-weight:bold">** We are not meeting at The Innovation Hub this week. There is a great speaker at The Venture Center occurring simultaneously. You can find details about the presentation below.**<br>
-<br>
-We will Resume our normal schedule and Location May 11th at the Innovation Hub With Speaker Christopher Steven. Christopher will be presenting on "Lessons Learned from BUILD 2015"</span>
-
-
-### Quoted from [Venture Center Code.IT Website](https://www.venturecenter.co/events/codeit)
-
-"Join us for The Venture Center’s Code•IT! Series presentation with Laravel Developer, Taylor Otwell.
-
-This interactive workshop features local guest speakers, technical co-founders and experts from around the country to discuss how they implement technologies that increase performance, responsiveness and scalability in their own businesses.
-
-This month, we’re excited to present Taylor Otwell, the developer of the Laravel PHP Framework
-
-Taylor will be discussing Laravel and the versatility that it offers developers. Attendees will have a chance to see many of the tools available to Laravel developers and engage in a Q&A with Taylor."
+Christopher Steven has spent the last 15 years developing Line of Business Software for the health care industry in the Central Arkansas Region. He has a passion for technology, mentoring aspiring developers to embrace software engineering and to always look towards the future. Christopher is a Microsoft Certified Professional Developer, an Alumni of Pulaski Technical College and the University of Arkansas. He is currently the Sr. Developer at Dassault Falcon Jet and the VP of the Little Rock .Net User Group.
