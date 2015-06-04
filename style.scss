@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
-  
+
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -43,23 +43,23 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-  
-h1 {  
+
+h1 {
   font-size: 30px;
   a {
     color: inherit;
   }
 }
 
-h2 {  
+h2 {
   font-size: 24px;
 }
 
-h3 {  
+h3 {
   font-size: 20px;
 }
 
-h4 {  
+h4 {
   font-size: 18px;
   color: $gray;
 }
@@ -152,7 +152,7 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
-  
+
   @include mobile {
     text-align: center;
   }
@@ -191,7 +191,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -201,7 +201,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
-  
+
   @include mobile {
     margin: 3px 0;
   }
@@ -210,9 +210,9 @@ img {
 nav {
   float: right;
   margin-top: 10px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
+  font-family: $helveticaNeue;
   font-size: 18px;
-  
+
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -248,7 +248,7 @@ nav {
   border-bottom: none;
 }
 
-.post { 
+.post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -275,16 +275,11 @@ nav {
   background-color: $lightGray;
 }
 
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
 .dl-horizontal dt {
   float: left;
   width: 150px;
   text-align: right;
-  margin-right: 10px;  
+  margin-right: 10px;
 }
 
 article.firstPost h4, article.firstPost h4 a {
@@ -300,14 +295,59 @@ article.firstPost a.read-more {
   text-transform: uppercase;
 }
 
-div.meetingInfo {
+header div.meetingInfo {
   float: right;
+  min-width: 300px;
   font-size: 12px;
   margin-top: 10px;
 
   @include mobile {
     float: none;
     font-size: 11px;
+  }
+}
+
+header section.officers {
+  font-size: 11px;
+  float: left;
+  margin-left: 50px;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+footer section.officers {
+  font-size: 10px;
+  float: left;
+  max-width: 50%;
+  min-width: 33%;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+footer .meetingInfo {
+  float: left;
+  font-size: 10px;
+  max-width: 33%;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  @include mobile {
+    float: none;
+    font-size: 11px;
+  }
+}
+footer section.social-icons {
+  float: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 15px auto;
   }
 }
 

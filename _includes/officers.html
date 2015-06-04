@@ -1,0 +1,38 @@
+<section class="officers">
+{% if site.officers.president %}
+  <section class="president">
+    <strong>President:</strong>
+    <a href="mailto:{{ site.officer-emails.president }}">{{site.officers.president}}</a>
+  </section>
+{% endif %}
+{% if site.officers.vice-president %}
+  <section class="vice-president">
+    <strong>Vice President:</strong>
+    <a href="mailto:{{ site.officer-emails.vice-president }}">{{site.officers.vice-president}}</a>
+  </section>
+{% endif %}
+{% if site.officers.webmaster %}
+  <section class="webmaster">
+    <strong>Webmaster:</strong>
+    <a href="mailto:{{ site.officer-emails.webmaster }}">{{site.officers.webmaster}}</a>
+  </section>
+{% endif %}
+{% if site.officers.sponsor-coord %}
+  <section class="sponsor-coord">
+    <strong>Sponsorship Coordinator:</strong>
+    <a href="mailto:{{ site.officer-emails.sponsor-coord }}">{{site.officers.sponsor-coord}}</a>
+  </section>
+{% endif %}
+{% if site.officers.event-coord %}
+  <section class="event-coord">
+    <strong>Event Coordinator:</strong>
+    <a href="mailto:{{ site.officer-emails.event-coord }}">{{site.officers.event-coord}}</a>
+  </section>
+{% endif %}
+{% if site.officers.training-coord %}
+  <section class="training-coord">
+    <strong>Training Coordinator:</strong>
+    <a href="mailto:{{ site.officer-emails.training-coord }}">{{site.officers.training-coord}}</a>
+  </section>
+{% endif %}
+</section>
