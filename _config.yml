@@ -28,10 +28,10 @@ officer-emails:
   event-coord: events@lrdnug.org
 
 # valid display-locations are:
-#   innovation-hub
+#   innovationhub
 #   few
 #
-display-location: innovation-hub
+display-location: innovationhub
 #
 # Flags below are optional
 #
