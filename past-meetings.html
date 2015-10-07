@@ -15,7 +15,11 @@ layout: default
   {% endif %}
 
       <dt>{{ post.date | date: "%B %Y" }}</dt>
-      <dd><a href="{{ site.baseurl }}{{ post.url }}"><em>{{ post.speaker }}</em> - {{ post.title }}</a></dd>
+      <dd><a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.speaker != "N/A" %}
+        <em>{{ post.speaker }}</em> -
+      {% endif %} 
+      {{ post.title }}</a></dd>
 
   {% if forloop.last %}
     </dl>
