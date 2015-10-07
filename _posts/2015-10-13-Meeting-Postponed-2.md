@@ -1,6 +1,6 @@
 ---
 layout: post
-title: October Meeting Postponed
+title: Meeting Postponed
 speaker: N/A
 ---
 
