@@ -12,7 +12,11 @@ layout: default
 	{% else %}
     <article class="post">    
 	{% endif %}
-      <h4>{{ post.date | date: "%B %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}"><em>{{ post.speaker }}</em> - {{ post.title }}</a></h4>
+      <h4>{{ post.date | date: "%B %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.speaker != "N/A" %}
+        <em>{{ post.speaker }}</em> -
+      {% endif %} 
+      {{ post.title }}</a></h4>
 
       <div class="entry">
         {{ post.content | truncatewords:40}}
