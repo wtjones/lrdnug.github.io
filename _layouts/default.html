@@ -25,17 +25,20 @@
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
+
+          <!--<div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
-          </div>
-          
+          </div>-->
+
           <nav>
             <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/past-meetings">Past Meetings</a>
             <a href="{{ site.baseurl }}/sponsors">Sponsors</a>
+            <a href="http://eepurl.com/e7XmE" title="Subscribe to our email">Subscribe</a>
           </nav>
+          {% include officers.html %}
+          {% include meeting-info.html %}
         </header>
       </div>
     </div>
@@ -46,7 +49,9 @@
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
+        <footer class="footer clearfix">
+          {% include officers.html %}
+          {% include meeting-info.html %}
           {% include svg-icons.html %}
         </footer>
       </div>

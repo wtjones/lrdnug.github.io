@@ -2,11 +2,21 @@
 layout: default
 ---
 
+
 <div class="posts">
-  {% for post in site.posts limit: 5 %}
+  {% assign firstPost = true %}
+
+  {% for post in site.posts limit: 3 %}
+	{% if firstPost == true %}
+    <article class="firstPost">    
+	{% else %}
     <article class="post">    
-      
-      <h4>{{ post.date | date: "%B %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}"><em>{{ post.speaker }}</em> - {{ post.title }}</a></h4>
+	{% endif %}
+      <h4>{{ post.date | date: "%B %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.speaker != "N/A" %}
+        <em>{{ post.speaker }}</em> -
+      {% endif %} 
+      {{ post.title }}</a></h4>
 
       <div class="entry">
         {{ post.content | truncatewords:40}}
@@ -14,5 +24,12 @@ layout: default
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
+	{% if firstPost == true %}
+    <hr />    
+	{% assign firstPost = false %}
+	{% endif %}
   {% endfor %}
+	
+	<h4>Click here to see more <a href="{{ site.baseurl }}/past-meetings">Past Meetings</a></h4>
+
 </div>
