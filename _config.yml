@@ -12,20 +12,23 @@ description:
 avatar: https://lrdnug.github.io/images/lrdnug_logo_whitebg_200x81.png
 
 officers:
-  president: Daniel Pollock
-  vice-president: Chris Steven
-  webmaster: Paul Gower
+  president: Chris Steven
+  vice-president: open position
+  webmaster: Michael Collins
   sponsor-coord: Abby Sims
-  training-coord:
-  event-coord: Kyle Neumeier
+  training-coord: open position
+  event-coord: open position
 
 officer-emails:
   president: president@lrdnug.org
-  vice-president: vicepresident@lrdnug.org
+  #vice-president: vicepresident@lrdnug.org
+  vice-president: president@lrdnug.org
   webmaster: webmaster@lrdnug.org
   sponsor-coord: sponsors@lrdnug.org
-  training-coord: training@lrdnug.org
-  event-coord: events@lrdnug.org
+  #training-coord: training@lrdnug.org
+  training-coord: president@lrdnug.org
+  #event-coord: events@lrdnug.org
+  event-coord: president@lrdnug.org
 
 # valid display-locations are:
 #   innovationhub
