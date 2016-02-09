@@ -28,7 +28,21 @@ body {
   max-width: 960px;
   padding: 0 10px;
   width: 100%;
+
+ 
 }
+
+div.img-change {
+position: relative;
+height: 100px;
+margin-bottom: 10px;
+}
+
+div.img-change img{
+    max-height: 100%;
+    position: absolute;
+    bottom: 0px;
+} 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
@@ -57,6 +71,8 @@ h2 {
 
 h3 {
   font-size: 20px;
+  
+
 }
 
 h4 {
@@ -66,6 +82,8 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-size: 13px;
+  
 }
 
 a {
@@ -108,6 +126,9 @@ strong, b {
 
 img {
   max-width: 100%;
+
+  
+ 
 }
 
 .date {
