@@ -136,14 +136,14 @@ img {
 $bg: #fff;
 $font-color: #333;
 
-
+.sponsors{
+  padding-top: 15px;
+}
 .callout-card {
   background: $bg; 
   border: 1px solid #333; 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
-  margin: 1rem 0; 
   overflow: hidden;
-
+  margin-bottom: .375rem;
 
   &.gold {
     border: 1px solid #e1b137;
@@ -166,7 +166,7 @@ $font-color: #333;
     }
   }
  .card-label {
-    float:right; 
+    text-align: right;
     background: black;
     padding: 3px 5px;
    /* border-style: solid; 
@@ -178,10 +178,10 @@ $font-color: #333;
   }
 
   .callout-card-content {
-    padding:  0.875rem;
+    padding:  0.375rem;
     text-align: center;
     img {
-    height: 40px;
+    max-height: 40px;
     }
   }
   
