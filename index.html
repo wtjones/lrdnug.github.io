@@ -17,19 +17,42 @@ layout: default
         <em>{{ post.speaker }}</em> -
       {% endif %} 
       {{ post.title }}</a></h4>
-
+      
       <div class="entry">
         {{ post.content | truncatewords:40}}
       </div>
-      
+     
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
 	{% if firstPost == true %}
-    <hr />    
+    <hr />
+<section class="sponsors">
+<h2>Sponsors</h2>
+<div class="row">
+  {% for sponsor in site.sponsors %}
+  <div class="col-sm-6  col-md-3">
+    <div class="callout-card {{sponsor.level}} ">
+      <div class="card-label">
+        <div class="label-text">
+          {{sponsor.level}}
+        </div>
+      </div>
+      <div class="callout-card-content">
+        <a href="{{sponsor.url}}">
+          <img src="{{sponsor.image}}"/>
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+</section>
+    <h3>Past meetings</h3>   
 	{% assign firstPost = false %}
 	{% endif %}
   {% endfor %}
 	
+    
 	<h4>Click here to see more <a href="{{ site.baseurl }}/past-meetings">Past Meetings</a></h4>
 
 </div>
