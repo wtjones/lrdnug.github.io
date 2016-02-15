@@ -30,6 +30,48 @@ officer-emails:
   #event-coord: events@lrdnug.org
   event-coord: president@lrdnug.org
 
+
+sponsors:
+  - name: ""
+    image: "/images/logos/gdh-logo.jpg"
+    url: "http://www.gdhconsulting.com"
+    description: "<p></p>"
+    level: "gold" 
+  - name: ""
+    image: "/images/logos/inuvo_logo.png" 
+    url: "http://www.inuvo.com/" 
+    description: "<p></p>"
+    level: "silver"
+  - name: ""
+    image: "/images/logos/logo_jetbrains.png" 
+    url: "http://www.jetbrains.com" 
+    description: "<p></p>"
+    level: "partner"
+  - name: ""
+    image: "/images/logos/PS_logo_F-02.png" 
+    url: "http://www.pluralsight.com/" 
+    description: "<p></p>"
+    level: "partner"
+  - name: ""
+    image: "/images/logos/telerik_new-logo.png" 
+    url: "http://www.telerik.com" 
+    description: "<p></p>"
+    level: "partner"
+  - name: ""
+    image: "http://cdn.oreillystatic.com/community/promote/ug_ad_200_superowl.gif" 
+    url: "http://www.oreilly.com"
+    description: "<p></p>"
+    level: "partner"
+  - name: ""
+    image: "/images/logos/sqlsmash_small.png" 
+    url: "http://sqlsmash.com/" 
+    description: "<p></p>"
+    level: "partner"
+  - name: ""
+    image: "/images/logos/devart.png" 
+    url: "https://www.devart.com/" 
+    description: "<p></p>"
+    level: "partner"
 # valid display-locations are:
 #   innovationhub
 #   few

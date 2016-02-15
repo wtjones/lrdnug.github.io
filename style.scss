@@ -131,6 +131,77 @@ img {
  
 }
 
+// flat colors
+
+$bg: #fff;
+$font-color: #333;
+
+.sponsors{
+  padding-top: 15px;
+}
+.callout-card {
+  background: $bg; 
+  border: 1px solid #333; 
+  overflow: hidden;
+  margin-bottom: .375rem;
+
+  &.gold {
+    border: 1px solid #e1b137;
+    .card-label {
+      background: #e1b137 ;
+    }
+  }
+  &.silver {
+    border: 1px solid #C0C0C0;
+
+    .card-label {
+      background: #C0C0C0;
+    }
+  }
+
+  &.partner {
+    border: 1px solid #4183C4;
+    .card-label {
+      background: #4183C4;
+    }
+  }
+ .card-label {
+    text-align: right;
+    background: black;
+    padding: 3px 5px;
+   /* border-style: solid; 
+    border-width: 0 100px 20px 0;  
+    float: right; 
+    height: 0px; 
+    width: 0px;
+    border-color: rgb(255, 204, 0);*/
+  }
+
+  .callout-card-content {
+    padding:  0.375rem;
+    text-align: center;
+    img {
+    max-height: 40px;
+    }
+  }
+  
+  &.radius {
+    border-radius: 0.6rem;
+  }
+  
+  .label-text {
+    color: #fff; 
+    font-size: 0.65rem; 
+    font-weight: bold; 
+    position: relative; 
+    white-space: nowrap;
+    text-transform: capitalize;
+  } 
+
+}
+
+
+
 .date {
   font-style: italic;
   color: $gray;
