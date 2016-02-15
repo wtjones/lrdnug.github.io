@@ -1,0 +1,43 @@
+
+
+
+<div class="row">
+	{% for sponsor in site.sponsors %}
+
+
+	<div class="col-sm-6  col-md-3">
+  
+		<div class="callout-card {{sponsor.level}} radius">
+
+			<div class="card-label">
+				
+				<div class="label-text">
+					{{sponsor.level}}
+				</div>
+			</div>
+
+			<div class="callout-card-content">
+
+				<a href="{{sponsor.url}}">
+					<img src="{{sponsor.image}}"/>
+				</a>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	
+	{% endfor %}
+</div>
+
+
+
+
+
+
+
+
