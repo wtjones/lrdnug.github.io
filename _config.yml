@@ -42,6 +42,11 @@ sponsors:
     url: "http://www.inuvo.com/" 
     description: "Inuvo is an internet marketing and technology company that delivers purchase-ready customers to advertisers through a broad network of desktop and mobile websites and apps."
     level: "silver"
+  - name: "Lindsey Software"
+    image: "/images/logos/lindsey-software-logo.png" 
+    url: "http://www.lindseysoftware.com" 
+    description: "Since 1959, Lindsey has been dedicated to innovation and market leadership in property management solutions designed to make life easier and ease the workload for public housing managers. Our full suite of products and cloud-based solutions has benefits that are easily recognizable by both property managers and tenants of properties utilizing Lindsey Software."
+    level: "silver"
   - name: "JetBrains"
     image: "/images/logos/logo_jetbrains.png" 
     url: "http://www.jetbrains.com" 
@@ -72,6 +77,7 @@ sponsors:
     url: "https://www.devart.com/" 
     description: "Devart is one of the leading developers of database tools and administration software, ALM solutions, data providers for various database servers, data integration and backup solutions. The company also implements Web and Mobile development projects."
     level: "partner"
+    
 # valid display-locations are:
 #   innovationhub
 #   few
