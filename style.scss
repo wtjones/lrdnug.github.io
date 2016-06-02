@@ -29,7 +29,7 @@ body {
   padding: 0 10px;
   width: 100%;
 
- 
+
 }
 
 div.img-change {
@@ -42,7 +42,7 @@ div.img-change img{
     max-height: 100%;
     position: absolute;
     bottom: 0px;
-} 
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
@@ -71,7 +71,7 @@ h2 {
 
 h3 {
   font-size: 20px;
-  
+
 
 }
 
@@ -83,7 +83,7 @@ h4 {
 p {
   margin: 15px 0;
   font-size: 13px;
-  
+
 }
 
 a {
@@ -127,8 +127,8 @@ strong, b {
 img {
   max-width: 100%;
 
-  
- 
+
+
 }
 
 // flat colors
@@ -140,8 +140,8 @@ $font-color: #333;
   padding: 10px 0 20px;
 }
 .callout-card {
-  background: $bg; 
-  border: 1px solid #333; 
+  background: $bg;
+  border: 1px solid #333;
   overflow: hidden;
   margin-bottom: .375rem;
   max-height: 75px;
@@ -170,10 +170,10 @@ $font-color: #333;
     text-align: right;
     background: black;
     padding: 3px 5px;
-   /* border-style: solid; 
-    border-width: 0 100px 20px 0;  
-    float: right; 
-    height: 0px; 
+   /* border-style: solid;
+    border-width: 0 100px 20px 0;
+    float: right;
+    height: 0px;
     width: 0px;
     border-color: rgb(255, 204, 0);*/
   }
@@ -185,19 +185,19 @@ $font-color: #333;
     max-height: 40px;
     }
   }
-  
+
   &.radius {
     border-radius: 0.6rem;
   }
-  
+
   .label-text {
-    color: #fff; 
-    font-size: 0.65rem; 
-    font-weight: bold; 
-    position: relative; 
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: bold;
+    position: relative;
     white-space: nowrap;
     text-transform: capitalize;
-  } 
+  }
 
 }
 
@@ -443,6 +443,7 @@ footer section.social-icons {
     margin: 15px auto;
   }
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
