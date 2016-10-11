@@ -1,35 +1,37 @@
 ---
 layout: default
 ---
-
-
+<div class="container">
+  <div class="col-sm-8">
 <div class="posts">
   {% assign firstPost = true %}
 
   {% for post in site.posts limit: 3 %}
 	{% if firstPost == true %}
-    <article class="firstPost">    
+    <article class="firstPost">
 	{% else %}
-    <article class="post">    
+    <article class="post">
 	{% endif %}
       <h4>{{ post.date | date: "%B %Y" }}: <a href="{{ site.baseurl }}{{ post.url }}">
       {% if post.speaker != "N/A" %}
         <em>{{ post.speaker }}</em> -
-      {% endif %} 
+      {% endif %}
       {{ post.title }}</a></h4>
-      
+
       <div class="entry">
         {{ post.content | truncatewords:40}}
       </div>
-     
+
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
 	{% if firstPost == true %}
-    <hr />    
+    <hr />
     {% include sponsors.html %}
-    <h3>Past meetings</h3>   
+    <h3>Past meetings</h3>
 	{% assign firstPost = false %}
 	{% endif %}
   {% endfor %}
     <h4>Click here to see more <a href="{{ site.baseurl }}/past-meetings">Past Meetings</a></h4>
 </div>
+</div>
+</div><!-- container -- >
