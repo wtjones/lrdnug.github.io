@@ -5,6 +5,5 @@ speaker: none
 ---
 
 ### About The topic
-Inline-style: 
-![alt text]("../images/2016 Holiday Social.jpg" "Dorcas House Collection and Elections")
+![alt text](../images/2016 Holiday Social.jpg "Dorcas House Collection and Elections")
 
