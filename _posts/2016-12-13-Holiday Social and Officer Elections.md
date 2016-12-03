@@ -5,5 +5,5 @@ speaker: none
 ---
 
 ### About The topic
-![alt text](../images/2016 Holiday Social.jpg "Dorcas House Collection and Elections")
+![alt text](../images/2016-Holiday-Social.jpeg "Dorcas House Collection and Elections")
 
