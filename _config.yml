@@ -17,14 +17,14 @@ officers:
   sponsor-coord: Daniel Pollock
   training-coord: Travis Jones  event-coord: Kate Wills  officer-emails:
   president: president@lrdnug.org
-  #vice-president: vicepresident@lrdnug.org
-  vice-president: president@lrdnug.org
+  vice-president: vicepresident@lrdnug.org
+  #vice-president: president@lrdnug.org
   webmaster: webmaster@lrdnug.org
   sponsor-coord: sponsors@lrdnug.org
-  #training-coord: training@lrdnug.org
-  training-coord: president@lrdnug.org
-  #event-coord: events@lrdnug.org
-  event-coord: president@lrdnug.org
+  training-coord: training@lrdnug.org
+  #training-coord: president@lrdnug.org
+  event-coord: events@lrdnug.org
+  #event-coord: president@lrdnug.org
 
 
 sponsors:
