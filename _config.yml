@@ -1,4 +1,4 @@
-#
+﻿#
 # This file contains configuration flags to customize your site
 #
 
@@ -12,14 +12,10 @@ description:
 avatar: https://lrdnug.github.io/images/lrdnug_logo_whitebg_200x81.png
 
 officers:
-  president: Chris Steven
-  vice-president: open position
-  webmaster: Michael Collins
-  sponsor-coord: Abby Sims
-  training-coord: open position
-  event-coord: open position
-
-officer-emails:
+  president: Christopher Steven
+  vice-president: Abby Sims  webmaster: Michael Collins
+  sponsor-coord: Daniel Pollock
+  training-coord: Travis Jones  event-coord: Kate Wills  officer-emails:
   president: president@lrdnug.org
   #vice-president: vicepresident@lrdnug.org
   vice-president: president@lrdnug.org
