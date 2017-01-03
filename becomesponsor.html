@@ -1,8 +1,17 @@
 ---
 layout: default
 ---
+
+<!--
+partner
+bronze
+silver
+gold1
+
+-->
     <!-- Bootstrap Core CSS -->
-    <style>
+
+    <!--
     .level-disabled {
       color: #a5a5a5;
     }
@@ -14,21 +23,30 @@ layout: default
     .price sup {
       top: -19px;
       left: 2px;
-      font-size: 23px;
     }
     .text-primary{
       color: inherit;
     }
 
-    .bronze .panel-title {
-      color: #ffffff;
+    .plans .panel-title {
+      color: #000000;
     }
-    .bronze .panel-heading {
-      background-color: #000000;
+    .plans .panel-heading {
+      background-color: #ffffff;
     }
-    .bronze .panel {
-      border: 1px solid #000000;
+    .plans .panel {
+      border: 1px solid #ffffff;
     }
+
+        .bronze .panel-title {
+          color: #ffffff;
+        }
+        .bronze .panel-heading {
+          background-color: #000000;
+        }
+        .bronze .panel {
+          border: 1px solid #000000;
+        }
 
     .silver .panel-title {
       color: #ffffff;
@@ -59,10 +77,6 @@ layout: default
     .partner .panel {
       border: 1px solid #4183C4;
     }
-    .level-disabled .fa {
-        color:red;
-        align: left;
-    }
     .btn-bronze{
       background-color: #000000;
       border-color:#000000;
@@ -91,7 +105,58 @@ layout: default
       background-color: #947424;
       border-color: #947424;
     }
+  -->
 
+<style>
+
+    .pricing-grid .row {
+      text-align: center;
+      border-bottom-width: thick;
+      border-bottom-color: #123456;
+    }
+    .row.header .partner {
+      background-color: #4183C4;
+
+    }
+    .row .partner {
+      text-align: center;
+      border-bottom-width: thick;
+      border-bottom-color: #123456;
+    }
+
+    .row.header .bronze {
+      background-color: #000000;
+
+    }
+    .row .bronze {
+      text-align: center;
+      border-bottom-width: thick;
+      border-bottom-color: #123456;
+    }
+
+        .row.header .silver {
+          background-color: #C0C0C0;
+
+        }
+        .row .silver {
+          text-align: center;
+        }
+
+        .row.header .gold1 {
+          background-color: #E1B137;
+
+        }
+        .row .gold1 {
+          text-align: center;
+        }
+
+        .row .btn{
+          text-align: center;
+        }
+
+    /*.row > div {
+      border: solid 1px #eee;
+    }*/
 
     </style>
     <!-- Page Content -->
@@ -103,8 +168,154 @@ layout: default
 
         </div>
 
+        <div class="row header">
+            <div class="col-md-4">
+              &nbsp;
+            </div>
+            <div class="col-md-2 partner">
+              <h2>Partner ---</h2>
+            </div>
+            <div class="col-md-2 bronze">
+              <h2>Bronze ---</h2>
+            </div>
+            <div class="col-md-2 silver">
+              <h2>Silver $300/Yr.</h2>
+            </div>
+            <div class="col-md-2 gold1">
+              <h2>Gold $400/Yr.</h2>
+            </div>
+        </div>
         <div class="row">
-            <div class="col-md-3 bronze sponsors-option">
+            <div class="col-md-4">
+              Logo on webite
+            </div>
+            <div class="col-md-2 partner">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 bronze">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 silver">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 gold1">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              Brief name mention at meetings
+            </div>
+            <div class="col-md-2 partner">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 bronze">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 silver">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 gold1">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              2-3 sentences about your company & mentioned in news e-mails
+            </div>
+            <div class="col-md-2 partner">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 bronze">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 silver">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 gold1">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              Banner Ad space on email newsletter & website
+            </div>
+            <div class="col-md-2 partner">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 bronze">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 silver">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 gold1">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              Other benefits
+            </div>
+            <div class="col-md-2 partner">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 bronze">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 silver">
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
+            </div>
+            <div class="col-md-2 gold1">
+              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+              &nbsp.
+            </div>
+            <div class="col-md-2 partner">
+              <a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-silver">Sponsor Us</a>
+            </div>
+            <div class="col-md-2 bronze">
+              <a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-silver">Sponsor Us</a>
+            </div>
+            <div class="col-md-2 silver">
+              <a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-silver">Sponsor Us</a>
+            </div>
+            <div class="col-md-2 gold1">
+              <a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-silver">Sponsor Us</a>
+            </div>
+        </div>
+
+
+
+
+
+
+<br/><br/><br/><br/><br/>
+        <div class="row">
+            <div class="col-md-4 plans">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Plans</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price">Price</span>
+                        <span class="yearperiod">Yearly Donation</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><strong>Logo on webite</strong></li>
+                        <li class="list-group-item"><strong>Brief name mention at meetings</strong></li>
+                        <li class="list-group-item"><strong> 2-3 sentences about your company & mentioned in news e-mails</strong></li>
+                        <li class="list-group-item"><strong> Banner Ad space on email newsletter & website</strong></li>
+                        <li class="list-group-item"><strong>Other benefits</strong></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-md-2 bronze">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
                         <h3 class="panel-title">Bronze</h3>
@@ -114,16 +325,16 @@ layout: default
                         <span class="yearperiod">Yearly Donation</span>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item"><strong>Logo on webite</strong></li>
-                        <li class="list-group-item"><strong>Brief name mention at meetings</strong></li>
-                        <li class="list-group-item level-disabled"><i class="fa fa-times" aria-hidden="true"></i>  2-3 sentences about your company & mentioned in news e-mails</li>
-                        <li class="list-group-item level-disabled"><i class="fa fa-times" aria-hidden="true"></i>  Banner Ad space on email newsletter & website</li>
-                        <li class="list-group-item level-disabled"><i class="fa fa-times" aria-hidden="true"></i>  Other benefits</li>
+                        <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                        <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                        <li class="list-group-item"><i class="fa fa-times text-failure" aria-hidden="true"></i></li>
+                        <li class="list-group-item"><i class="fa fa-times text-falure" aria-hidden="true"></i></li>
+                        <li class="list-group-item"><i class="fa fa-times text-failure" aria-hidden="true"></i></li>
                         <li class="list-group-item"><a href="mailto:sponsors@lrdnug.org" class="btn btn-border btn-bronze">Sponsor Us</a>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 silver sponsors-option">
+            <div class="col-md-2 silver">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
                         <h3 class="panel-title">Silver</h3>
@@ -133,16 +344,16 @@ layout: default
                         <span class="yearperiod">Yearly Donation</span>
                     </div>
                     <ul class="list-group">
-                      <li class="list-group-item"><strong>Logo on webite</strong></li>
-                      <li class="list-group-item"><strong>Brief name mention at meetings</strong></li>
-                      <li class="list-group-item"><strong>2-3 sentences about your company & mentioned in news e-mails</strong></li>
-                      <li class="list-group-item level-disabled"><i class="fa fa-times" aria-hidden="true"></i>  Banner Ad space on email newsletter & website</li>
-                      <li class="list-group-item level-disabled"><i class="fa fa-times" aria-hidden="true"></i>  Other benefits</li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-times text-failure" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-times text-failure" aria-hidden="true"></i></li>
                       <li class="list-group-item"><a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-silver">Sponsor Us</a>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 gold sponsors-option">
+            <div class="col-md-2 gold1">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
                         <h3 class="panel-title">Gold</h3>
@@ -152,16 +363,16 @@ layout: default
                         <span class="yearperiod">Yearly Donation</span>
                     </div>
                     <ul class="list-group">
-                      <li class="list-group-item"><strong>Logo on webite</strong></li>
-                      <li class="list-group-item"><strong>Brief name mention at meetings</strong></li>
-                      <li class="list-group-item"><strong>2-3 sentences about your company & mentioned in news e-mails</strong></li>
-                      <li class="list-group-item"><strong>Banner Ad space on email newsletter & website</strong></li>
-                      <li class="list-group-item level-disabled"><i class="fa fa-times" aria-hidden="true"></i>  Other benefits</li>
-                      <li class="list-group-item"><a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-gold">Sponsor Us</a>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-gold1">Sponsor Us</a>
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 partner sponsors-option">
+            <div class="col-md-2 partner">
                 <div class="panel panel-defualt text-center">
                     <div class="panel-heading">
                         <h3 class="panel-title">Contributing Partner</h3>
@@ -171,11 +382,11 @@ layout: default
                         <span class="yearperiod">Yearly Donations</span>
                     </div>
                     <ul class="list-group">
-                      <li class="list-group-item"><strong>Logo on webite</strong></li>
-                      <li class="list-group-item"><strong>Brief name mention at meetings</strong></li>
-                      <li class="list-group-item"><strong>2-3 sentences about your company & mentioned in news e-mails</strong></li>
-                      <li class="list-group-item"><strong>Banner Ad space on email newsletter & website</strong></li>
-                      <li class="list-group-item"><strong>Other benefits</strong></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
+                      <li class="list-group-item"><i class="fa fa-check text-success" aria-hidden="true"></i></li>
                       <li class="list-group-item"><a href="mailto:sponsors@lrdnug.org" class="btn btn-primary">Sponsor Us</a>
                     </ul>
                 </div>
