@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Holiday Social and Officer Elections
-speaker: none
+speaker: N/A
 ---
 
-### About The topic
-![alt text](../images/2016-Holiday-Social.jpeg "Dorcas House Collection and Elections")
+![Dorcas House Collection and Elections](../images/2016-Holiday-Social.jpeg "Dorcas House Collection and Elections")
 
