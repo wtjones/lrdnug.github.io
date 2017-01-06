@@ -3,37 +3,50 @@ layout: default
 ---
 <style>
 
-    .pricing-grid .row {
-      text-align: center;
-    }
-    .row.header .partner {
-      background-color: #4183C4;
-    }
-    .row.header .bronze {
-      background-color: #000000;
+.pricing-grid .row {
+  text-align: center;
+}
 
-    }
-        .row.header .silver {
-          background-color: #C0C0C0;
+.row.header > div {
+  padding: 10px 0;
+}
 
-        }
-        .row.header .gold1 {
-          background-color: #E1B137;
+.row.header .partner {
+  background-color: #4183C4;
+}
+.row.header .bronze {
+  background-color: #000000;
 
-        }
-        .pricing-grid .row {
-          text-align: center;
-          padding-top: 25px;
-          border-bottom: 1px solid lightgray;
-        }
-        .pricing-grid .row:first-child, .pricing-grid .row:last-child {
-          border: none
-        }
-        .pricing-grid h2{
-          color: #ffffff;
-        }
+}
+.row.header .silver {
+  background-color: #C0C0C0;
+}
+.row.header .gold1 {
+  background-color: #E1B137;
 
-    </style>
+}
+
+.pricing-grid .row {
+  text-align: center;
+  padding-top: 25px;
+  border-bottom: 1px solid lightgray;
+}
+.pricing-grid .row:first-child {
+  padding-top: 0;
+}
+.pricing-grid .row:first-child, .pricing-grid .row:last-child {
+  border: none;
+}
+
+.pricing-grid .row.header, .pricing-grid .row.header h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.pricing-grid .row.header h2 {
+  margin-bottom:5px;
+}
+
+</style>
     <!-- Page Content -->
     <div class="container">
         <!-- Content Row -->
@@ -47,16 +60,20 @@ layout: default
             <div class="col-md-4">
             </div>
             <div class="col-md-2 partner">
-              <h2>Partner ---</h2>
+              <h2>Partner</h2>
+              <em>In-Kind</em>
             </div>
             <div class="col-md-2 bronze">
-              <h2>Bronze ---</h2>
+              <h2>Bronze</h2>
+              <em>$250</em>
             </div>
             <div class="col-md-2 silver">
-              <h2>Silver $300/Yr.</h2>
+              <h2>Silver</h2>
+              <em>$500</em>
             </div>
             <div class="col-md-2 gold1">
-              <h2>Gold $400/Yr.</h2>
+              <h2>Gold</h2>
+              <em>$1000</em>
             </div>
         </div>
         <div class="row">
@@ -78,10 +95,10 @@ layout: default
         </div>
         <div class="row">
             <div class="col-md-4">
-              <h4>Brief name mention at meetings</h4>
+              <h4>Brief name mention during meetings</h4>
             </div>
             <div class="col-md-2 partner">
-              <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
+              <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
             </div>
             <div class="col-md-2 bronze">
               <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
@@ -95,7 +112,7 @@ layout: default
         </div>
         <div class="row">
             <div class="col-md-4">
-              <h4>2-3 sentences about your company & mentioned in news e-mails</h4>
+              <h4>Company news & open positions mentioned during meeting</h4>
             </div>
             <div class="col-md-2 partner">
               <h2><i class="fa fa-times text-danger" aria-hidden="true"></i></h2>
@@ -127,7 +144,7 @@ layout: default
               <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-4">
               <h4>Other benefits</h4>
             </div>
@@ -143,8 +160,9 @@ layout: default
             <div class="col-md-2 gold1">
               <h2><i class="fa fa-check text-success" aria-hidden="true"></i></h2>
             </div>
-        </div>
+        </div> -->
       </div>
+      <br/><br/>
       <div class="row">
           <div class="col-md-6 col-md-offset-3">
             <a href="mailto:sponsors@lrdnug.org" class="btn btn-primary btn-lg btn-block">Sponsor Us</a>
