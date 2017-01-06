@@ -5,7 +5,7 @@
 // IMPORTS
 //
 
-@import "_reset";
+// @import "_reset";
 @import "_variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -14,12 +14,12 @@
 /**************/
 
 html {
-  font-size: 100%;
+  // font-size: 100%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
