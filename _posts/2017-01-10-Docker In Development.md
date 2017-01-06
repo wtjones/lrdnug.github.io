@@ -14,3 +14,6 @@ Utilizing containers in the dev workflow:
 * Demonstrate ways to orchestrate containers using Docker Compose
 * Explore cloud hosting options
 
+### About the Speaker
+Since graduating from Arkansas Tech University, Travis Jones now resides in Little Rock. There, he works as a software developer in the financial industry with the mantra that "back office software doesn't have to be kludgy". He particularly enjoys automation of all kinds, as well as MSSQL development and optimization.
+
