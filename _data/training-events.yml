@@ -1,0 +1,97 @@
+- title: GroupBy.org (SQL conference) January 2017 sessions available
+  desc: GroupBy Videos Now Available on BitTorrent
+  link: https://groupby.org/2017/01/groupby-videos-now-available-on-bittorrent/
+  tags: [online, conference, free]
+- title: Microsoft Tech Summit Washington, D.C.
+  desc: "Build your enterprise or government cloud and infrastructure skills with a two-day free technical training event"
+  startDate: 2017-3-6
+  endDate: 2017-3-7
+  tags: [in-person, conference, free]
+  when: "March 6-7, 2017"
+  where: "Washington DC"
+  link: "https://www.microsoft.com/en-us/techsummit/washington-dc.aspx"
+- title: Project Management Workshop
+  desc: |
+    Master the art of project planning, and organize your project without omissions, mistakes, or miscalculations.
+    Use better communications techniques to get the cooperation, support, and resources that are vital to the project's success.
+    Root out waste in every stage of the project — wasted time, money, and effort that endanger a project's success.
+    Identify and use indispensable planning and scheduling tools that assure the project is implemented exactly as planned.
+    Estimate time and costs with pinpoint accuracy, using a simple 3-point approach that reduces the risk of costly delays and errors.
+  startDate: 2017-3-10
+  endDate: 2017-3-10
+  link: http://www.pryor.com/mkt_info/seminars/desc/PM.asp?zip=72223
+  where: Little Rock
+  tags: [local, in-person, conference]
+- title: Visual Studio Live! 2017
+  desc: Fabulous Las Vegas, where developers, software architects, engineers, designers and more will convene for five days of unbiased and cutting-edge education on the Microsoft Platform.
+  startDate: 2017-3-13
+  endDate: 2017-3-17
+  link: https://vslive.com/events/las-vegas-2017/home.aspx
+  tags: [in-person, conference]
+  where: Las Vegas
+  registerInfo: "Save $300 thru 2/17"
+- title: DockerCon Austin 2017
+  desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
+  startDate: 2017-4-17
+  endDate: 2017-4-20
+  link: http://2017.dockercon.com/
+  tags: [in-person, conference]
+- title: Microsoft Build 2017
+  desc: Software continues to transform the world in remarkable ways and developers are at the center of it. At Microsoft Build 2017 we invite you to join us in downtown Seattle to learn about latest new technologies and exciting plans on the horizon.
+  startDate: 2017-5-10
+  endDate: 2017-5-12
+  link: https://build.microsoft.com/
+  where: Seattle, WA
+  tags: [in-person, conference]
+  registerInfo: "Tickets available 2/14"
+- title: Google IO 2017
+  startDate: 2017-5-17
+  endDate: 2017-5-19
+  link: https://events.google.com/io/
+  where: Shoreline Amphitheatre, Mountain View, CA
+  tags: [in-person, conference]
+  registerInfo: "Ticket Application Window: February 22, 10AM PST - February 27, 5PM PST"
+- title: PHP[TEK] 2017
+  desc: ...the premier PHP conference and annual homecoming for the PHP Community
+  startDate: 2017-5-24
+  endDate: 2017-5-26
+  link: https://tek.phparch.com/
+  where: Atlanta
+  tags: [in-person, conference]
+  registerInfo: Early Bird Ticket sale runs through February 18th, 2017
+- title: Microsoft Inspire 2017 (Partner conference)
+  desc: Microsoft Inspire is where the world meets to transform business. Hear the latest revelations from industry experts, top Microsoft leaders, and fellow Microsoft partners and take part in the face-to-face conversations that can lead to your company’s next big opportunity.
+  startDate: 2017-7-9
+  endDate: 2017-7-13
+  link: https://partner.microsoft.com/en-US/inspire/
+  where: DC
+  tags: [in-person, conference]
+- title: CoderCruise
+  desc: For 7 days and 6 nights, you will be on a ship with other attendees, learning from each other, team building and forming community relationships that will last for years to come.  A conference on a cruise is the ultimate immersive experience. The conference will take place on the 3 days at sea.  The remaining 3 days the ship will be at various ports where you will be free to explore the area or join us for a group excursion.
+  startDate: 2017-7-16
+  endDate: 2017-7-23
+  link: https://www.codercruise.com/
+  where: Sail from New Orleans
+  tags: [in-person, conference]
+- title: Microsoft Ignite
+  desc: >
+    Microsoft Ignite gives you five days of hands-on learning, industry insights, and direct access to product experts—all in one place. 
+    
+    700+ sessions
+    Interactive Digital Labs
+    Direct access to product experts
+    Deep dives and demos
+    300+ partners at the expo
+    Product roadmaps, vision, and strategies
+  startDate: 2017-8-25
+  endDate: 2017-8-29
+  link: https://ignite.microsoft.com/
+  where: Orlando, FL
+  tags: [in-person, conference]
+- title: IT/Dev Connections 2017
+  desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
+  startDate: 2017-10-23
+  endDate: 2017-10-26
+  link: http://devconnections.com/dc17/Public/Enter.aspx
+  where: San Francisco
+  tags: [in-person, conference]
