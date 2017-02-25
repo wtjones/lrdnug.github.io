@@ -7,50 +7,8 @@ excerpt: In-person and online upcoming conferences and training.
 Upcoming Training and Conference Events
 ========================
 
-
 <div class="list-group">
   {% for event in site.data.training-events %}
-    <div class="list-group-item">
-      <h4 class="list-group-item-heading">{{ event.title }} {% if event.where %} - {{ event.where }} {% endif %}</h4>
-      <p class="list-group-item-text"><i>{{ event.desc }}</i></p>
-      {% if event.startDate %}
-        {% if event.startDate != event.endDate %}
-          <p class="list-group-item-text">Dates: {{ event.startDate | date: '%b %d, %Y' }} to {{ event.endDate | date: '%b %d, %Y' }}</p>
-        {% else %}
-          <p class="list-group-item-text">Dates: {{ event.startDate | date: '%b %d, %Y' }}</p>
-        {% endif %}
-      {% endif %}
-      <p class="list-group-item-text">
-        {% if event.registerInfo %}
-          <div class="alert alert-info" role="alert">{{ event.registerInfo }}</div>
-        {% endif %}
-      </p>
-      <div class="row">
-        <div class="col-xs-10 list-group-item-text">
-          <p class="list-group-item-text">
-          {% for tag in event.tags %}
-            {% if tag == 'free' %}
-              {% assign labelClass = 'label label-success' %}
-            {% elsif tag == 'in-person' %}
-              {% assign labelClass = 'label label-primary' %}
-            {% elsif tag == 'online' %}
-              {% assign labelClass = 'label label-info' %}
-            {% elsif tag == 'conference' %}
-              {% assign labelClass = 'label label-warning' %}
-            {% else %}
-              {% assign labelClass = 'label label-default' %}
-            {% endif %}
-            <span class="{{ labelClass }}">{{ tag }}</span>
-          {% endfor %}
-          </p>
-        </div>
-        <div class="col-xs-2">
-          <p class="list-group-item-text">
-            Details <a href="{{ event.link }}">here</a>
-          </p>
-        </div>
-      </div>
-    </div>
+  {% include training-event-list-item.html event=event %}
   {% endfor %}
 </div>
-
