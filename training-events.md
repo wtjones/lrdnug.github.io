@@ -5,7 +5,7 @@ excerpt: In-person and online upcoming conferences and training.
 ---
 
 Upcoming Training and Conference Events
-========================
+=======================================
 
 <div class="list-group">
   {% for event in site.data.training-events %}
