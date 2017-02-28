@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Sponsors
+description: Our sponsors are the main reason we can still do what we do. View them here, or become one here.
 ---
 <div class="row">
     <div class="col-md-12">
@@ -15,7 +17,7 @@ layout: default
   {% for sponsor in site.sponsors -%}
   {% if sponsor.level == 'gold' -%}
   <div class="col-sm-6 col-md-4">
-    <div class="img-change"> 
+    <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
     </div>
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
@@ -31,7 +33,7 @@ layout: default
   {% for sponsor in site.sponsors -%}
   {% if sponsor.level == 'silver' -%}
   <div class="col-sm-6 col-md-4">
-    <div class="img-change"> 
+    <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
     </div>
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
@@ -48,7 +50,7 @@ layout: default
   {% for sponsor in site.sponsors -%}
   {% if sponsor.level == 'bronze' -%}
   <div class="col-sm-6 col-md-4">
-    <div class="img-change"> 
+    <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
     </div>
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
@@ -65,7 +67,7 @@ layout: default
   {% for sponsor in site.sponsors -%}
   {% if sponsor.level == 'partner' -%}
   <div class="col-sm-6 col-md-4">
-    <div class="img-change"> 
+    <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
     </div>
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
