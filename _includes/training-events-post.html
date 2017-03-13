@@ -1,0 +1,20 @@
+<h3>Upcoming training and events</h3>
+
+<div class="list-group">
+  {% assign eventCount = 0 %}
+  {% for event in site.data.training-events %}
+    {% assign startSeconds = (event.startDate | date: "%s" | plus: 0) %}
+    {% assign postSeconds = (page.date | date: "%s" | plus: 0) %}
+    {% assign postDiffSeconds = startSeconds | minus: postSeconds %}
+
+    {% assign postDiffDays = postDiffSeconds | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
+    
+    {% if postDiffDays > 0 and eventCount < 3 %}
+      {% assign eventCount = eventCount | plus: 1 %}
+      {% include training-event-list-item.html event=event %}
+    {% endif %}
+
+  {% endfor %}
+</div>
+
+<a href="{{ site.baseurl }}/training-events">full list ...</a>
