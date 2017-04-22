@@ -1,7 +1,7 @@
 - title: GroupBy.org (SQL conference) April 2017 sessions available
   desc: |
     You can now access sessions from the event.
-    
+
     * How to Use Parameters Like a Pro and Boost Performance by Guy Glantser
     * Introducing the SQL Server 2016 Query Store by Enrico van de Laar    
     * Worst Practices & Less Known Limitations for Columnstore Indexes by Niko Neugebauer
@@ -98,6 +98,18 @@
   endDate: 2017-8-29
   link: https://ignite.microsoft.com/
   where: Orlando, FL
+  tags: [in-person, conference]
+- title: VMworld 2017
+  desc: >
+    VMworld is VMware’s premier thought leadership and education destination for cloud infrastructure and digital workspace technology professionals. Join us for five days of innovation and learn new skills, hear expert insights and gain the tools to enable business success.
+  
+    At VMworld, you’ll join the industry’s top thought leaders, subject matter experts and IT professionals to immerse yourself in the latest in cloud infrastructure and business mobility technology. 
+  
+    This is the one indispensable event to discover the technology, trends and people who are shaping the future of digital business.
+  startDate: 2017-8-27
+  endDate: 2017-8-31
+  link: https://www.vmworld.com/en/us/index.html
+  where: Las Vegas
   tags: [in-person, conference]
 - title: IT/Dev Connections 2017
   desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
