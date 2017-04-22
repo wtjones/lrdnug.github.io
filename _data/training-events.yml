@@ -1,6 +1,13 @@
-- title: GroupBy.org (SQL conference) January 2017 sessions available
-  desc: GroupBy Videos Now Available on BitTorrent
-  link: https://groupby.org/2017/01/groupby-videos-now-available-on-bittorrent/
+- title: GroupBy.org (SQL conference) April 2017 sessions available
+  desc: |
+    You can now access sessions from the event.
+    
+    * How to Use Parameters Like a Pro and Boost Performance by Guy Glantser
+    * Introducing the SQL Server 2016 Query Store by Enrico van de Laar    
+    * Worst Practices & Less Known Limitations for Columnstore Indexes by Niko Neugebauer
+    * Gems to Help You Troubleshoot Query Performance by Pedro Lopes
+    * Crash Course on Better SQL Development by Vladimir Oselsky
+  link: https://groupby.org/2017/04/groupby-recordings-are-available-now/
   tags: [online, conference, free]
 - title: Full Pluralsight catalog available with MSDN
   desc: "Subscribers now have full access to Pluralsight's entire course catalog and technology learning platform, including Code School for 12 months"
