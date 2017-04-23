@@ -14,8 +14,8 @@ description: Our sponsors are the main reason we can still do what we do. View t
   <h2 class="col-sm-12">Gold</h2>
 </div>
 <div class="row">
-  {% for sponsor in site.sponsors -%}
-  {% if sponsor.level == 'gold' -%}
+  {% for sponsor in site.sponsors %}
+  {% if sponsor.level == 'gold' %}
   <div class="col-sm-6 col-md-4">
     <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
@@ -23,15 +23,15 @@ description: Our sponsors are the main reason we can still do what we do. View t
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
     <p>{{sponsor.description}}</p>
   </div>
-  {% endif -%}
-  {% endfor -%}
+  {% endif %}
+  {% endfor %}
 </div>
 <div class="row">
   <h2 class="col-sm-12">Silver</h2>
 </div>
 <div class="row">
-  {% for sponsor in site.sponsors -%}
-  {% if sponsor.level == 'silver' -%}
+  {% for sponsor in site.sponsors %}
+  {% if sponsor.level == 'silver' %}
   <div class="col-sm-6 col-md-4">
     <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
@@ -39,16 +39,16 @@ description: Our sponsors are the main reason we can still do what we do. View t
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
     <p>{{sponsor.description}}</p>
   </div>
-  {% endif -%}
-  {% endfor -%}
+  {% endif %}
+  {% endfor %}
 </div>
 
 <div class="row">
     <h2 class="sm-col-12">Bronze</h2>
 </div>
 <div class="row">
-  {% for sponsor in site.sponsors -%}
-  {% if sponsor.level == 'bronze' -%}
+  {% for sponsor in site.sponsors %}
+  {% if sponsor.level == 'bronze' %}
   <div class="col-sm-6 col-md-4">
     <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
@@ -56,16 +56,16 @@ description: Our sponsors are the main reason we can still do what we do. View t
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
     <p>{{sponsor.description}}</p>
   </div>
-  {% endif -%}
-  {% endfor -%}
+  {% endif %}
+  {% endfor %}
 </div>
 
 <div class="row">
   <h2 class="col-sm-12">Partners</h2>
 </div>
 <div class="row">
-  {% for sponsor in site.sponsors -%}
-  {% if sponsor.level == 'partner' -%}
+  {% for sponsor in site.sponsors %}
+  {% if sponsor.level == 'partner' %}
   <div class="col-sm-6 col-md-4">
     <div class="img-change">
       <a href="{{sponsor.url}}"><img src="{{sponsor.image}}" alt="LRDNUG Sponsor: {{sponsor.name}}"></a>
@@ -73,6 +73,6 @@ description: Our sponsors are the main reason we can still do what we do. View t
     <h3 class="media-heading"><a href="{{sponsor.url}}">{{sponsor.name}}</a></h3>
     <p>{{sponsor.description}}</p>
   </div>
-  {% endif -%}
-  {% endfor -%}
+  {% endif %}
+  {% endfor %}
 </div>
