@@ -41,6 +41,16 @@
   tags: [in-person, conference]
   where: Las Vegas
   registerInfo: "Save $300 thru 2/17"
+- title: "AWS ONLINE TALKS: Uninterrupted Business"
+  desc: |
+    Cloud security at AWS is the highest priority. As an AWS customer, you will benefit from a data center and network architecture built to meet the requirements of the most security-sensitive organisations.
+    An advantage of the AWS cloud is that it allows customers to scale and innovate, while maintaining a secure environment. Customers pay only for the services they use, meaning that you can have the security you need, but without the upfront expenses, and at a lower cost than in an on-premises environment.
+
+    Register to attend our weekly online talks to explore cloud security and compliance topics and get your questions answered during live Q&A.
+  startDate: 2017-4-12
+  endDate: 2017-6-6
+  link: https://aws.amazon.com/events/security-webinars/
+  tags: [online, webinar, free]
 - title: DockerCon Austin 2017
   desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
   startDate: 2017-4-17
@@ -70,6 +80,13 @@
   where: Atlanta
   tags: [in-person, conference]
   registerInfo: Early Bird Ticket sale runs through February 18th, 2017
+- title: Music City Code 2017
+  desc: Music City Code conference strives to inspire progress in the technology community through education, professional development & thought leadership.
+  startDate: 2017-6-1
+  endDate: 2017-6-3
+  link: https://www.musiccitycode.com/
+  where: Nashville
+  tags: [in-person, conference]
 - title: Microsoft Inspire 2017 (Partner conference)
   desc: Microsoft Inspire is where the world meets to transform business. Hear the latest revelations from industry experts, top Microsoft leaders, and fellow Microsoft partners and take part in the face-to-face conversations that can lead to your company’s next big opportunity.
   startDate: 2017-7-9
