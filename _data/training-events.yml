@@ -101,6 +101,14 @@
   link: https://www.codercruise.com/
   where: Sail from New Orleans
   tags: [in-person, conference]
+- title: KCDC 2017
+  desc: >
+    The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
+  startDate: 2017-8-3
+  endDate: 2017-8-4
+  link: http://www.kcdc.info/
+  where: Kansas City, MO
+  tags: [in-person, conference]
 - title: Microsoft Ignite
   desc: >
     Microsoft Ignite gives you five days of hands-on learning, industry insights, and direct access to product experts—all in one place. 
@@ -127,6 +135,14 @@
   endDate: 2017-8-31
   link: https://www.vmworld.com/en/us/index.html
   where: Las Vegas
+  tags: [in-person, conference]
+- title: Strange Loop
+  desc: >
+    Strange Loop is a multi-disciplinary conference that brings together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, security, and the web.
+  startDate: 2017-9-28
+  endDate: 2017-9-30
+  link: https://thestrangeloop.com/
+  where: St Louis, MO
   tags: [in-person, conference]
 - title: IT/Dev Connections 2017
   desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
