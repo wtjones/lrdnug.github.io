@@ -1,6 +1,13 @@
-- title: GroupBy.org (SQL conference) January 2017 sessions available
-  desc: GroupBy Videos Now Available on BitTorrent
-  link: https://groupby.org/2017/01/groupby-videos-now-available-on-bittorrent/
+- title: GroupBy.org (SQL conference) April 2017 sessions available
+  desc: |
+    You can now access sessions from the event.
+
+    * How to Use Parameters Like a Pro and Boost Performance by Guy Glantser
+    * Introducing the SQL Server 2016 Query Store by Enrico van de Laar    
+    * Worst Practices & Less Known Limitations for Columnstore Indexes by Niko Neugebauer
+    * Gems to Help You Troubleshoot Query Performance by Pedro Lopes
+    * Crash Course on Better SQL Development by Vladimir Oselsky
+  link: https://groupby.org/2017/04/groupby-recordings-are-available-now/
   tags: [online, conference, free]
 - title: Full Pluralsight catalog available with MSDN
   desc: "Subscribers now have full access to Pluralsight's entire course catalog and technology learning platform, including Code School for 12 months"
@@ -34,6 +41,16 @@
   tags: [in-person, conference]
   where: Las Vegas
   registerInfo: "Save $300 thru 2/17"
+- title: "AWS ONLINE TALKS: Uninterrupted Business"
+  desc: |
+    Cloud security at AWS is the highest priority. As an AWS customer, you will benefit from a data center and network architecture built to meet the requirements of the most security-sensitive organisations.
+    An advantage of the AWS cloud is that it allows customers to scale and innovate, while maintaining a secure environment. Customers pay only for the services they use, meaning that you can have the security you need, but without the upfront expenses, and at a lower cost than in an on-premises environment.
+
+    Register to attend our weekly online talks to explore cloud security and compliance topics and get your questions answered during live Q&A.
+  startDate: 2017-4-12
+  endDate: 2017-6-6
+  link: https://aws.amazon.com/events/security-webinars/
+  tags: [online, webinar, free]
 - title: DockerCon Austin 2017
   desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
   startDate: 2017-4-17
@@ -63,6 +80,13 @@
   where: Atlanta
   tags: [in-person, conference]
   registerInfo: Early Bird Ticket sale runs through February 18th, 2017
+- title: Music City Code 2017
+  desc: Music City Code conference strives to inspire progress in the technology community through education, professional development & thought leadership.
+  startDate: 2017-6-1
+  endDate: 2017-6-3
+  link: https://www.musiccitycode.com/
+  where: Nashville
+  tags: [in-person, conference]
 - title: Microsoft Inspire 2017 (Partner conference)
   desc: Microsoft Inspire is where the world meets to transform business. Hear the latest revelations from industry experts, top Microsoft leaders, and fellow Microsoft partners and take part in the face-to-face conversations that can lead to your company’s next big opportunity.
   startDate: 2017-7-9
@@ -76,6 +100,14 @@
   endDate: 2017-7-23
   link: https://www.codercruise.com/
   where: Sail from New Orleans
+  tags: [in-person, conference]
+- title: KCDC 2017
+  desc: >
+    The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
+  startDate: 2017-8-3
+  endDate: 2017-8-4
+  link: http://www.kcdc.info/
+  where: Kansas City, MO
   tags: [in-person, conference]
 - title: Microsoft Ignite
   desc: >
@@ -91,6 +123,26 @@
   endDate: 2017-8-29
   link: https://ignite.microsoft.com/
   where: Orlando, FL
+  tags: [in-person, conference]
+- title: VMworld 2017
+  desc: >
+    VMworld is VMware’s premier thought leadership and education destination for cloud infrastructure and digital workspace technology professionals. Join us for five days of innovation and learn new skills, hear expert insights and gain the tools to enable business success.
+  
+    At VMworld, you’ll join the industry’s top thought leaders, subject matter experts and IT professionals to immerse yourself in the latest in cloud infrastructure and business mobility technology. 
+  
+    This is the one indispensable event to discover the technology, trends and people who are shaping the future of digital business.
+  startDate: 2017-8-27
+  endDate: 2017-8-31
+  link: https://www.vmworld.com/en/us/index.html
+  where: Las Vegas
+  tags: [in-person, conference]
+- title: Strange Loop
+  desc: >
+    Strange Loop is a multi-disciplinary conference that brings together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, security, and the web.
+  startDate: 2017-9-28
+  endDate: 2017-9-30
+  link: https://thestrangeloop.com/
+  where: St Louis, MO
   tags: [in-person, conference]
 - title: IT/Dev Connections 2017
   desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
