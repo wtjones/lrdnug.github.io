@@ -110,7 +110,7 @@
   where: Tulsa, OK
   tags: [in-person, conference]
 - title: AWS Summit - Chicago
-  desc: >
+  desc: |
     The AWS Summit brings together the cloud computing community to connect, collaborate and learn about AWS.
 
     Whether you are new to the cloud or an experienced user, you will learn something new at the AWS Summit. This free event is designed to educate you about the AWS platform. Develop the skills to design, deploy, and operate infrastructure and applications.
@@ -126,7 +126,7 @@
   where: The Arkansas Regional Innovation Hub
   tags: [in-person, training]
 - title: KCDC 2017
-  desc: >
+  desc: |
     The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
   startDate: 2017-8-3
   endDate: 2017-8-4
@@ -134,7 +134,7 @@
   where: Kansas City, MO
   tags: [in-person, conference]
 - title: Microsoft Ignite
-  desc: >
+  desc: |
     Microsoft Ignite gives you five days of hands-on learning, industry insights, and direct access to product experts—all in one place. 
     
     700+ sessions
@@ -149,7 +149,7 @@
   where: Orlando, FL
   tags: [in-person, conference]
 - title: VMworld 2017
-  desc: >
+  desc: |
     VMworld is VMware’s premier thought leadership and education destination for cloud infrastructure and digital workspace technology professionals. Join us for five days of innovation and learn new skills, hear expert insights and gain the tools to enable business success.
   
     At VMworld, you’ll join the industry’s top thought leaders, subject matter experts and IT professionals to immerse yourself in the latest in cloud infrastructure and business mobility technology. 
@@ -161,7 +161,7 @@
   where: Las Vegas
   tags: [in-person, conference]
 - title: .Net Conf
-  desc: >
+  desc: |
     .NET Conf is a free, 3 day virtual developer event co-organized by the .NET community and Microsoft. Over the course of the three days developers have a wide selection of live sessions that feature speakers from the community and .NET product teams. These are the experts in their field and it is a chance to learn, ask questions live, and get inspired for their next software project.
     
     Developers will learn to build for web, mobile, desktop, games, services, libraries and more for a variety of platforms and devices all with .NET. We’ll have presentations on .NET Core and ASP.NET Core, C#, F#, Roslyn, Visual Studio, Xamarin, and much more.
@@ -170,7 +170,7 @@
   link: http://www.dotnetconf.net/
   tags: [virtual, conference, free]
 - title: Strange Loop
-  desc: >
+  desc: |
     Strange Loop is a multi-disciplinary conference that brings together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, security, and the web.
   startDate: 2017-9-28
   endDate: 2017-9-30
@@ -178,7 +178,7 @@
   where: St Louis, MO
   tags: [in-person, conference]
 - title: Little Rock Tech Fest
-  desc: >
+  desc: |
     Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
     
     Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
@@ -197,8 +197,8 @@
   where: San Francisco
   tags: [in-person, conference]
 - title: DEVIntersection Fall 2017
-  desc: >
-    In today’s fast-paced world with technology changing rapidly, it’s a challenge to stay on top of everything new while mastering the fundamentals. This exciting event, now in it’s forth year, brings your favorite Microsoft leaders, engineers and industry experts together to educate, network, and share their expertise with you. Just this year, ASP.NET Core, SQL Server 2016, Visual Studio 2015, Windows 10 and SharePoint 2016 launched. The new release of Windows Server is on the horizon and open source is becoming the norm. The cloud is real and so is cloud scaling. Are you ready? Invest in your companies success – and in your career – at an event where questions are answered, strategies are defi ned and relationships are built.
+  desc: |
+    In today’s fast-paced world with technology changing rapidly, it’s a challenge to stay on top of everything new while mastering the fundamentals. This exciting event, now in it’s forth year, brings your favorite Microsoft leaders, engineers and industry experts together to educate, network, and share their expertise with you. Just this year, ASP.NET Core, SQL Server 2016, Visual Studio 2015, Windows 10 and SharePoint 2016 launched. The new release of Windows Server is on the horizon and open source is becoming the norm. The cloud is real and so is cloud scaling. Are you ready? Invest in your companies success – and in your career – at an event where questions are answered, strategies are defined and relationships are built.
   startDate: 2017-10-30
   endDate: 2017-11-2
   link: https://www.spintersection.com/#!/Fall-2017
