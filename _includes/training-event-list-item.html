@@ -2,7 +2,7 @@
 {% assign event = include.event %}
 <div class="list-group-item">
   <h4 class="list-group-item-heading">{{ event.title }} {% if event.where %} - {{ event.where }} {% endif %}</h4>
-  <p class="list-group-item-text"><i>{{ event.desc }}</i></p>
+  <p class="list-group-item-text"><i>{{ event.desc | newline_to_br }}</i></p>  
   {% if event.startDate %}
     {% if event.startDate != event.endDate %}
       <p class="list-group-item-text">Dates: {{ event.startDate | date: '%b %d, %Y' }} to {{ event.endDate | date: '%b %d, %Y' }}</p>
