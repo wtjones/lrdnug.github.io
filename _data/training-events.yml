@@ -87,6 +87,13 @@
   link: https://www.musiccitycode.com/
   where: Nashville
   tags: [in-person, conference]
+- title: Arduino workshop
+  desc: Arduino? What is that?! Learn the basics of this fun open-source electronic platform. Come explore with us!
+  startDate: 2017-6-24
+  endDate: 2017-6-24
+  link: https://campscui.active.com/orgs/ARHub#/selectSessions/1923602
+  where: The Arkansas Regional Innovation Hub
+  tags: [in-person, training]
 - title: Microsoft Inspire 2017 (Partner conference)
   desc: Microsoft Inspire is where the world meets to transform business. Hear the latest revelations from industry experts, top Microsoft leaders, and fellow Microsoft partners and take part in the face-to-face conversations that can lead to your company’s next big opportunity.
   startDate: 2017-7-9
@@ -101,6 +108,29 @@
   link: https://www.codercruise.com/
   where: Sail from New Orleans
   tags: [in-person, conference]
+- title: Tulsa TechFest 2017/Tulsa School of Dev 2017
+  desc: Two days of learning and sessions
+  startDate: 2017-7-20
+  endDate: 2017-7-21
+  link: https://twitter.com/TulsaTechFest
+  where: Tulsa, OK
+  tags: [in-person, conference]
+- title: AWS Summit - Chicago
+  desc: >
+    The AWS Summit brings together the cloud computing community to connect, collaborate and learn about AWS.
+
+    Whether you are new to the cloud or an experienced user, you will learn something new at the AWS Summit. This free event is designed to educate you about the AWS platform. Develop the skills to design, deploy, and operate infrastructure and applications.
+  startDate: 2017-7-26
+  endDate: 2017-7-27
+  link: https://aws.amazon.com/summits/chicago/?refid=ep
+  tags: [in-person, conference, free]
+- title: Rasberry Pi workshop
+  desc: Learn how to set up a Raspberry Pi! This class is perfect for beginners- especially those that own a pi and do not know how to use it!
+  startDate: 2017-7-29
+  endDate: 2017-7-29
+  link: https://campscui.active.com/orgs/ARHub#/selectSessions/1923602
+  where: The Arkansas Regional Innovation Hub
+  tags: [in-person, training]
 - title: KCDC 2017
   desc: >
     The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
@@ -150,4 +180,12 @@
   endDate: 2017-10-26
   link: http://devconnections.com/dc17/Public/Enter.aspx
   where: San Francisco
+  tags: [in-person, conference]
+- title: DEVIntersection Fall 2017
+  desc: >
+    In today’s fast-paced world with technology changing rapidly, it’s a challenge to stay on top of everything new while mastering the fundamentals. This exciting event, now in it’s forth year, brings your favorite Microsoft leaders, engineers and industry experts together to educate, network, and share their expertise with you. Just this year, ASP.NET Core, SQL Server 2016, Visual Studio 2015, Windows 10 and SharePoint 2016 launched. The new release of Windows Server is on the horizon and open source is becoming the norm. The cloud is real and so is cloud scaling. Are you ready? Invest in your companies success – and in your career – at an event where questions are answered, strategies are defi ned and relationships are built.
+  startDate: 2017-10-30
+  endDate: 2017-11-2
+  link: https://www.spintersection.com/#!/Fall-2017
+  where: Las Vegas, NV
   tags: [in-person, conference]

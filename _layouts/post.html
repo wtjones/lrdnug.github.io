@@ -9,7 +9,9 @@ layout: default
 		{{ content }}
 	</div>
 </article>
-{% if page.date >= site.time "%B %e %y" %}
+{% assign pageSeconds = (page.date | date: "%s" | plus: 0) %}
+{% assign siteSeconds = (site.time | date: "%s" | plus: 0) %}
+{% if pageSeconds >= siteSeconds %}
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
 	<a href="https://www.meetup.com/Little-Rock-NET-User-Group/" class="btn btn-primary btn-lg btn-block">RSVP on Meetup</a>
