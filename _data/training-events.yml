@@ -1,13 +1,7 @@
-- title: GroupBy.org (SQL conference) April 2017 sessions available
+- title: GroupBy.org (SQL conference) June 2017 sessions available
   desc: |
-    You can now access sessions from the event.
-
-    * How to Use Parameters Like a Pro and Boost Performance by Guy Glantser
-    * Introducing the SQL Server 2016 Query Store by Enrico van de Laar    
-    * Worst Practices & Less Known Limitations for Columnstore Indexes by Niko Neugebauer
-    * Gems to Help You Troubleshoot Query Performance by Pedro Lopes
-    * Crash Course on Better SQL Development by Vladimir Oselsky
-  link: https://groupby.org/2017/04/groupby-recordings-are-available-now/
+    James Anderson, Rob Sewell, Andrew Prust, Bert Wagner, and Brent Ozar talk about why Microsoft might want to run SQL Server on Linux, presentation disasters, the DBAtools and DBAreports open source projects. At 42 minutes in, Drew Furgiuele joins and shows the High Altitude SQL Server Project’s balloon gear
+  link: https://groupby.org/conference-session-abstracts/june-groupby-intermission-recordings-are-online/
   tags: [online, conference, free]
 - title: Full Pluralsight catalog available with MSDN
   desc: "Subscribers now have full access to Pluralsight's entire course catalog and technology learning platform, including Code School for 12 months"
@@ -166,6 +160,15 @@
   link: https://www.vmworld.com/en/us/index.html
   where: Las Vegas
   tags: [in-person, conference]
+- title: .Net Conf
+  desc: >
+    .NET Conf is a free, 3 day virtual developer event co-organized by the .NET community and Microsoft. Over the course of the three days developers have a wide selection of live sessions that feature speakers from the community and .NET product teams. These are the experts in their field and it is a chance to learn, ask questions live, and get inspired for their next software project.
+    
+    Developers will learn to build for web, mobile, desktop, games, services, libraries and more for a variety of platforms and devices all with .NET. We’ll have presentations on .NET Core and ASP.NET Core, C#, F#, Roslyn, Visual Studio, Xamarin, and much more.
+  startDate: 2017-9-19
+  endDate: 2017-9-21
+  link: http://www.dotnetconf.net/
+  tags: [virtual, conference, free]
 - title: Strange Loop
   desc: >
     Strange Loop is a multi-disciplinary conference that brings together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, security, and the web.
@@ -174,6 +177,18 @@
   link: https://thestrangeloop.com/
   where: St Louis, MO
   tags: [in-person, conference]
+- title: Little Rock Tech Fest
+  desc: >
+    Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
+    
+    Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
+    
+    This is our fifth year hosting the event. Will you join us?
+  startDate: 2017-10-5
+  endDate: 2017-10-6
+  link: http://www.lrtechfest.com/
+  where: Little Rock, AR
+  tags: [in-person, conference]  
 - title: IT/Dev Connections 2017
   desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
   startDate: 2017-10-23
