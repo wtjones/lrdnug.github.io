@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Round Robin Presentations
-speaker: multiple
+speaker: Multiple speakers
 ---
 
 ### About The topic
