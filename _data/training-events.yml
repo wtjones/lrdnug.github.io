@@ -168,6 +168,14 @@
   link: https://thestrangeloop.com/
   where: St Louis, MO
   tags: [in-person, conference]
+- title: Hacktoberfest 2017
+  desc: |
+    Support open source and earn a limited edition T-shirt.
+    Hacktoberfest is a month-long celebration of open source software in partnership with Github.
+  startDate: 2017-10-01
+  endDate: 2017-10-31
+  link: https://hacktoberfest.digitalocean.com/
+  tags: [online, hackathon]
 - title: Little Rock Tech Fest
   desc: |
     Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
@@ -175,8 +183,8 @@
     Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
     
     This is our fifth year hosting the event. Will you join us?
-  startDate: 2017-10-5
-  endDate: 2017-10-6
+  startDate: 2017-10-05
+  endDate: 2017-10-06
   link: http://www.lrtechfest.com/
   where: Little Rock, AR
   tags: [in-person, conference]  
@@ -214,4 +222,12 @@
   endDate: 2017-11-2
   link: https://www.spintersection.com/#!/Fall-2017
   where: Las Vegas, NV
+  tags: [in-person, conference]
+- title: PASS Summit 2017
+  desc: |
+    PASS Summit connects you with industry experts and global data professionals in a unique learning environment that empowers you with the practical knowledge you need to excel in your career.
+  startDate: 2017-10-31
+  endDate: 2017-11-3
+  link: http://www.pass.org/summit/2017/Home.aspx
+  where: Seattle, WA
   tags: [in-person, conference]
