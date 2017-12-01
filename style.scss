@@ -138,7 +138,15 @@ $font-color: #333;
 
 .sponsors{
   padding: 10px 0 20px;
+
+	.callout-card{
+			height: 85px;
+		img{
+			margin:auto;
+		}
+	}
 }
+
 .callout-card {
   background: $bg;
   border: 1px solid #333;
@@ -166,6 +174,7 @@ $font-color: #333;
       background: #4183C4;
     }
   }
+
  .card-label {
     text-align: right;
     background: black;

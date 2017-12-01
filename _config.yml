@@ -6,7 +6,7 @@
 name: Little Rock .NET User Group
 
 # Short bio or description (displayed in the header)
-description: 
+description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://lrdnug.github.io/images/lrdnug_logo_whitebg_200x81.png
@@ -71,12 +71,7 @@ sponsors:
     url: "http://www.pluralsight.com/"
     description: "Pluralsight provides high-quality training solutions for Microsoft .NET developers that can fit any schedule or budget. The revolutionary Pluralsight On-Demand! training library provides developers with instant access to a rich collection of online training courses delivered by industry authorities. See what you can learn at pluralsight.com and join the @pluralsight community on Twitter."
     level: "partner"
-  - name: "Post Sharp"
-    image: "/images/logos/PostSharp.png"
-    url: "https://www.postsharp.net/"
-    description: "PostSharp - the #1 pattern-aware compiler extension for C# and VB"
-    level: "partner"
-    - name: "Telerik"
+  - name: "Telerik"
     image: "/images/logos/telerik_new-logo.png"
     url: "http://www.telerik.com"
     description: "Telerik’s mission is to make software development easier and more enjoyable. Our tools for agile project management, collaboration, development and testing allow companies of all sizes to create richer, more stable and aesthetic software faster than ever before. Trusted by over 100,000 customers worldwide for our devotion to quality and customer care, Telerik helps technical and business professionals maximize their productivity and &quot;deliver more than expected” every day."
@@ -91,7 +86,11 @@ sponsors:
     url: "https://www.devart.com/"
     description: "Devart is one of the leading developers of database tools and administration software, ALM solutions, data providers for various database servers, data integration and backup solutions. The company also implements Web and Mobile development projects."
     level: "partner"
-
+  - name: "Post Sharp"
+    image: "/images/logos/PostSharp.png"
+    url: "http://www.postsharp.net/"
+    description: ""
+    level: "partner"
 # valid display-locations are:
 #   innovationhub
 #   few
