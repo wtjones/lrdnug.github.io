@@ -1,31 +1,3 @@
-- title: Microsoft Tech Summit Washington, D.C.
-  desc: "Build your enterprise or government cloud and infrastructure skills with a two-day free technical training event"
-  startDate: 2017-3-6
-  endDate: 2017-3-7
-  tags: [in-person, conference, free]
-  when: "March 6-7, 2017"
-  where: "Washington DC"
-  link: "https://www.microsoft.com/en-us/techsummit/washington-dc.aspx"
-- title: Project Management Workshop
-  desc: |
-    Master the art of project planning, and organize your project without omissions, mistakes, or miscalculations.
-    Use better communications techniques to get the cooperation, support, and resources that are vital to the project's success.
-    Root out waste in every stage of the project — wasted time, money, and effort that endanger a project's success.
-    Identify and use indispensable planning and scheduling tools that assure the project is implemented exactly as planned.
-    Estimate time and costs with pinpoint accuracy, using a simple 3-point approach that reduces the risk of costly delays and errors.
-  startDate: 2017-3-10
-  endDate: 2017-3-10
-  link: http://www.pryor.com/mkt_info/seminars/desc/PM.asp?zip=72223
-  where: Little Rock
-  tags: [local, in-person, conference]
-- title: Visual Studio Live! 2017
-  desc: Fabulous Las Vegas, where developers, software architects, engineers, designers and more will convene for five days of unbiased and cutting-edge education on the Microsoft Platform.
-  startDate: 2017-3-13
-  endDate: 2017-3-17
-  link: https://vslive.com/events/las-vegas-2017/home.aspx
-  tags: [in-person, conference]
-  where: Las Vegas
-  registerInfo: "Save $300 thru 2/17"
 - title: "AWS ONLINE TALKS: Uninterrupted Business"
   desc: |
     Cloud security at AWS is the highest priority. As an AWS customer, you will benefit from a data center and network architecture built to meet the requirements of the most security-sensitive organisations.
@@ -36,12 +8,6 @@
   endDate: 2017-6-6
   link: https://aws.amazon.com/events/security-webinars/
   tags: [online, webinar, free]
-- title: DockerCon Austin 2017
-  desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
-  startDate: 2017-4-17
-  endDate: 2017-4-20
-  link: http://2017.dockercon.com/
-  tags: [in-person, conference]
 - title: Microsoft Build 2017
   desc: Software continues to transform the world in remarkable ways and developers are at the center of it. At Microsoft Build 2017 we invite you to join us in downtown Seattle to learn about latest new technologies and exciting plans on the horizon.
   startDate: 2017-5-10
@@ -65,13 +31,6 @@
   where: Atlanta
   tags: [in-person, conference]
   registerInfo: Early Bird Ticket sale runs through February 18th, 2017
-- title: Music City Code 2017
-  desc: Music City Code conference strives to inspire progress in the technology community through education, professional development & thought leadership.
-  startDate: 2017-6-1
-  endDate: 2017-6-3
-  link: https://www.musiccitycode.com/
-  where: Nashville
-  tags: [in-person, conference]
 - title: Arduino workshop
   desc: Arduino? What is that?! Learn the basics of this fun open-source electronic platform. Come explore with us!
   startDate: 2017-6-24
@@ -193,13 +152,6 @@
   twitter: '@devupconf'
   where: St Louis, MO
   tags: [in-person, conference]  
-- title: IT/Dev Connections 2017
-  desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
-  startDate: 2017-10-23
-  endDate: 2017-10-26
-  link: http://devconnections.com/dc17/Public/Enter.aspx
-  where: San Francisco
-  tags: [in-person, conference]
 - title: DEVIntersection Fall 2017
   desc: |
     In today’s fast-paced world with technology changing rapidly, it’s a challenge to stay on top of everything new while mastering the fundamentals. This exciting event, now in it’s forth year, brings your favorite Microsoft leaders, engineers and industry experts together to educate, network, and share their expertise with you. Just this year, ASP.NET Core, SQL Server 2016, Visual Studio 2015, Windows 10 and SharePoint 2016 launched. The new release of Windows Server is on the horizon and open source is becoming the norm. The cloud is real and so is cloud scaling. Are you ready? Invest in your companies success – and in your career – at an event where questions are answered, strategies are defined and relationships are built.
@@ -224,6 +176,45 @@
   link: http://www.developerweek.com//
   where: San Francisco
   tags: [in-person, conference]
+- title: Microsoft Tech Summit
+  desc: "Build your enterprise or government cloud and infrastructure skills with a two-day free technical training event"
+  startDate: 2018-3-5
+  endDate: 2018-3-6
+  tags: [in-person, conference, free]
+  when: "March 6-7, 2017"
+  where: "Washington DC"
+  link: "https://www.microsoft.com/en-us/techsummit/washington-dc.aspx"
+- title: Visual Studio Live! 2018
+  desc: |
+    During this intense, hard-hitting week of education on the Microsoft Platform, we’ll help you sharpen your skills in Visual Studio, ASP.NET, .NET Core, JavaScript, Xamarin, Database Analytics, and so much more.
+  startDate: 2018-3-10
+  endDate: 2018-3-16
+  link: https://vslive.com/Events/Las-Vegas-2018/Home.aspx
+  tags: [in-person, conference]
+  where: Las Vegas
+  twitter: "#VSLIVE25"
+- title: Music City Code 2018
+  desc: Music City Code conference strives to inspire progress in the technology community through education, professional development & thought leadership.
+  startDate: 2018-5-31
+  endDate: 2018-6-01
+  link: https://www.facebook.com/MusicCityCode/
+  where: Nashville
+  tags: [in-person, conference]
+- title: Visual Studio Live! 2018
+  desc: Code with industry experts and Microsoft insiders while developing perspective on the Microsoft platform. 
+  startDate: 2018-6-10
+  endDate: 2018-6-14
+  link: https://vslive.com/Events/boston-2018/Home.aspx
+  tags: [in-person, conference]
+  where: Boston
+  twitter: "#VSLIVE25"
+- title: DockerCon 2018
+  desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
+  startDate: 2018-6-12
+  endDate: 2017-6-14
+  link: http://2018.dockercon.com/
+  tags: [in-person, conference]
+  where: San Franciso
 - title: Microsoft Ignite
   desc: |
     Microsoft Ignite gives you five days of hands-on learning, industry insights, and direct access to product experts—all in one place. 
@@ -238,4 +229,11 @@
   endDate: 2018-9-28
   link: https://ignite.microsoft.com/
   where: Orlando, FL
+  tags: [in-person, conference]
+- title: IT/Dev Connections 2018
+  desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
+  startDate: 2018-10-15
+  endDate: 2018-10-18
+  link: http://www.itdevconnections.com/dc18/Public/Enter.aspx
+  where: Dallas
   tags: [in-person, conference]
