@@ -6,7 +6,7 @@
 name: Little Rock .NET User Group
 
 # Short bio or description (displayed in the header)
-description: 
+description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://lrdnug.github.io/images/lrdnug_logo_whitebg_200x81.png
@@ -41,11 +41,11 @@ sponsors:
   #   url: "http://www.inuvo.com/"
   #   description: "Inuvo is an internet marketing and technology company that delivers purchase-ready customers to advertisers through a broad network of desktop and mobile websites and apps."
   #   level: "silver"
-  - name: "Lindsey Software"
-    image: "/images/logos/lindsey-software-logo.png"
-    url: "http://www.lindseysoftware.com"
-    description: "Since 1959, Lindsey has been dedicated to innovation and market leadership in property management solutions designed to make life easier and ease the workload for public housing managers. Our full suite of products and cloud-based solutions has benefits that are easily recognizable by both property managers and tenants of properties utilizing Lindsey Software."
-    level: "silver"
+  # - name: "Lindsey Software"
+  #  image: "/images/logos/lindsey-software-logo.png"
+  #  url: "http://www.lindseysoftware.com"
+  #  description: "Since 1959, Lindsey has been dedicated to innovation and market leadership in property management solutions designed to make life easier and ease the workload for public housing managers. Our full suite of products and cloud-based solutions has benefits that are easily recognizable by both property managers and tenants of properties utilizing Lindsey Software."
+  #  level: "silver"
   - name: "Laravel"
     image: "/images/logos/laravel.png"
     url: "https://www.laravel.com/"
@@ -86,7 +86,11 @@ sponsors:
     url: "https://www.devart.com/"
     description: "Devart is one of the leading developers of database tools and administration software, ALM solutions, data providers for various database servers, data integration and backup solutions. The company also implements Web and Mobile development projects."
     level: "partner"
-
+  - name: "PostSharp"
+    image: "/images/logos/PostSharp.png"
+    url: "http://www.postsharp.net/"
+    description: "PostSharp is the #1 pattern-aware extension to C# and VB. It allows developers to eradicate boilerplate by offloading repeating work from humans to machines. Includes some the most common patterns and gives you the tools to build your own."
+    level: "partner"
 # valid display-locations are:
 #   innovationhub
 #   few
