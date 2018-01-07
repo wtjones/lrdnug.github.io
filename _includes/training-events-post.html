@@ -3,9 +3,9 @@
 <div class="list-group">
   {% assign eventCount = 0 %}
   {% for event in site.data.training-events %}
-    {% assign startSeconds = (event.startDate | date: "%s" | plus: 0) %}
+    {% assign eventSeconds = (event.endDate | date: "%s" | plus: 0) %}
     {% assign postSeconds = (page.date | date: "%s" | plus: 0) %}
-    {% assign postDiffSeconds = startSeconds | minus: postSeconds %}
+    {% assign postDiffSeconds = eventSeconds | minus: postSeconds %}
 
     {% assign postDiffDays = postDiffSeconds | divided_by: 60 | divided_by: 60 | divided_by: 24 %}
     
