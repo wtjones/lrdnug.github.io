@@ -8,21 +8,6 @@
   endDate: 2017-6-6
   link: https://aws.amazon.com/events/security-webinars/
   tags: [online, webinar, free]
-- title: Microsoft Build 2017
-  desc: Software continues to transform the world in remarkable ways and developers are at the center of it. At Microsoft Build 2017 we invite you to join us in downtown Seattle to learn about latest new technologies and exciting plans on the horizon.
-  startDate: 2017-5-10
-  endDate: 2017-5-12
-  link: https://build.microsoft.com/
-  where: Seattle, WA
-  tags: [in-person, conference]
-  registerInfo: "Tickets available 2/14"
-- title: Google IO 2017
-  startDate: 2017-5-17
-  endDate: 2017-5-19
-  link: https://events.google.com/io/
-  where: Shoreline Amphitheatre, Mountain View, CA
-  tags: [in-person, conference]
-  registerInfo: "Ticket Application Window: February 22, 10AM PST - February 27, 5PM PST"
 - title: PHP[TEK] 2017
   desc: ...the premier PHP conference and annual homecoming for the PHP Community
   startDate: 2017-5-24
@@ -44,13 +29,6 @@
   endDate: 2017-7-13
   link: https://partner.microsoft.com/en-US/inspire/
   where: DC
-  tags: [in-person, conference]
-- title: CoderCruise
-  desc: For 7 days and 6 nights, you will be on a ship with other attendees, learning from each other, team building and forming community relationships that will last for years to come.  A conference on a cruise is the ultimate immersive experience. The conference will take place on the 3 days at sea.  The remaining 3 days the ship will be at various ports where you will be free to explore the area or join us for a group excursion.
-  startDate: 2017-7-16
-  endDate: 2017-7-23
-  link: https://www.codercruise.com/
-  where: Sail from New Orleans
   tags: [in-person, conference]
 - title: Tulsa TechFest 2017/Tulsa School of Dev 2017
   desc: Two days of learning and sessions
@@ -75,14 +53,6 @@
   link: https://campscui.active.com/orgs/ARHub#/selectSessions/1923602
   where: The Arkansas Regional Innovation Hub
   tags: [in-person, training]
-- title: KCDC 2017
-  desc: |
-    The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
-  startDate: 2017-8-3
-  endDate: 2017-8-4
-  link: http://www.kcdc.info/
-  where: Kansas City, MO
-  tags: [in-person, conference]
 - title: VMworld 2017
   desc: |
     VMworld is VMware’s premier thought leadership and education destination for cloud infrastructure and digital workspace technology professionals. Join us for five days of innovation and learn new skills, hear expert insights and gain the tools to enable business success.
@@ -178,43 +148,102 @@
   tags: [in-person, conference]
 - title: Microsoft Tech Summit
   desc: "Build your enterprise or government cloud and infrastructure skills with a two-day free technical training event"
-  startDate: 2018-3-5
-  endDate: 2018-3-6
+  startDate: 2018-03-5
+  endDate: 2018-03-6
   tags: [in-person, conference, free]
-  when: "March 6-7, 2017"
   where: "Washington DC"
   link: "https://www.microsoft.com/en-us/techsummit/washington-dc.aspx"
 - title: Visual Studio Live! 2018
   desc: |
     During this intense, hard-hitting week of education on the Microsoft Platform, we’ll help you sharpen your skills in Visual Studio, ASP.NET, .NET Core, JavaScript, Xamarin, Database Analytics, and so much more.
-  startDate: 2018-3-10
-  endDate: 2018-3-16
+  startDate: 2018-03-10
+  endDate: 2018-03-16
   link: https://vslive.com/Events/Las-Vegas-2018/Home.aspx
   tags: [in-person, conference]
   where: Las Vegas
   twitter: "#VSLIVE25"
+- title: Nowhere Developers Conference
+  desc: |
+    It’s a conference and event series for developers and engineers, focused on the latest developments in software engineering, machine learning, blockchain, distributed systems, and frontend and backend development.
+  startDate: 2018-03-15
+  endDate: 2018-03-15
+  link: https://www.nowheredevelopers.com/
+  where: Bentonville, AR
+  tags: [in-person, conference]
+  twitter: '@NowhereDev'
+- title: Code Stock
+  desc: |
+    CodeStock is a two day event for technology and information exchange. Created by the community, for the community – this is not an industry trade show pushing the latest in marketing as technology, but a gathering of working professionals sharing knowledge and experience.
+  startDate: 2018-04-20
+  endDate: 2018-04-21
+  link: http://codestock.org/about-conference/
+  where: Nashville, TN
+  tags: [in-person, conference]
+  twitter: '@CodeStock'
+- title: Microsoft Build 2018
+  desc: Software continues to transform the world in remarkable ways and developers are at the center of it. At Microsoft Build we invite you to join us in downtown Seattle to learn about latest new technologies and exciting plans on the horizon.
+  startDate: 2018-05-07
+  endDate: 2018-05-09
+  link: https://build.microsoft.com/
+  where: Seattle, WA
+  tags: [in-person, conference]
+- title: Google IO 2018
+  startDate: 2018-05-08
+  endDate: 2018-05-10
+  link: https://events.google.com/io/
+  where: Shoreline Amphitheatre, Mountain View, CA
+  tags: [in-person, conference]
+  twitter: '#io18'
+- title: NWA TechFest
+  desc: |
+    NWA TechFest is a technology conference that brings together the tech community to learn from and interact with one another, as well as promoting gender diversity in STEM, economic development opportunities for corporations, and education programs for students and teachers. Proceeds from this conference go to assist STEM-related initiatives in the Northwest Arkansas community.
+
+    With 15 breakout sessions, 2 Keynote speakers, and breakfast and lunch provided, this event is well worth the cost! Network with fellow developers and doers in the Northwest Arkansas community and beyond.
+  startDate: 2018-05-17
+  endDate: 2018-05-17
+  link: https://nwatechfest.com/
+  where: Fayetteville, AR
+  tags: [in-person, conference]
+  twitter: '@NWATechFest'
 - title: Music City Code 2018
   desc: Music City Code conference strives to inspire progress in the technology community through education, professional development & thought leadership.
-  startDate: 2018-5-31
-  endDate: 2018-6-01
+  startDate: 2018-05-31
+  endDate: 2018-06-01
   link: https://www.facebook.com/MusicCityCode/
   where: Nashville
   tags: [in-person, conference]
 - title: Visual Studio Live! 2018
   desc: Code with industry experts and Microsoft insiders while developing perspective on the Microsoft platform. 
-  startDate: 2018-6-10
-  endDate: 2018-6-14
+  startDate: 2018-06-10
+  endDate: 2018-06-14
   link: https://vslive.com/Events/boston-2018/Home.aspx
   tags: [in-person, conference]
   where: Boston
   twitter: "#VSLIVE25"
 - title: DockerCon 2018
   desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
-  startDate: 2018-6-12
-  endDate: 2017-6-14
+  startDate: 2018-06-12
+  endDate: 2017-06-14
   link: http://2018.dockercon.com/
   tags: [in-person, conference]
   where: San Franciso
+- title: KCDC 2018
+  desc: |
+    The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
+  startDate: 2018-07-12
+  endDate: 2017-07-12
+  link: http://www.kcdc.info/
+  where: Kansas City, MO
+  tags: [in-person, conference]
+  twitter: '@kc_dc'
+- title: CoderCruise
+  desc: |
+    Tired of the usual web technology conference scene? Want a more inclusive experience that lets you get to know your fellow attendees and make connections? Well, CoderCruise was designed to be just this. It's a polyglot developer conference on a cruise ship! This year we will be taking a 5-day, 4-night cruise out of Ft. Lauderdale, FL that includes stops at Half Moon Cay and Nassau.
+  startDate: 2018-08-30
+  endDate: 2018-09-03
+  link: https://www.codercruise.com/
+  where: Sail from New Orleans
+  tags: [in-person, conference]
 - title: Microsoft Ignite
   desc: |
     Microsoft Ignite gives you five days of hands-on learning, industry insights, and direct access to product experts—all in one place. 
@@ -225,8 +254,8 @@
     Deep dives and demos
     300+ partners at the expo
     Product roadmaps, vision, and strategies
-  startDate: 2018-9-24
-  endDate: 2018-9-28
+  startDate: 2018-09-24
+  endDate: 2018-09-28
   link: https://ignite.microsoft.com/
   where: Orlando, FL
   tags: [in-person, conference]
