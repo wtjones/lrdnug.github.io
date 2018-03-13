@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Web Performance: Forget Everything I Told You Last Time
+title: Web Performance - Forget Everything I Told You Last Time
 speaker: Matt Shull
 ---
 
