@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keeping the Lights On - IT Applications at Southwest Power Pool
-speaker: Jerry Wild, Trey Wetzel, Derek Welker, Ed Briggler, Greg Massey
+speakers: Jerry Wild, Trey Wetzel, Derek Welker, Ed Briggler, Greg Massey
 ---
 
 ### Details
