@@ -30,13 +30,6 @@
   link: https://partner.microsoft.com/en-US/inspire/
   where: DC
   tags: [in-person, conference]
-- title: Tulsa TechFest 2017/Tulsa School of Dev 2017
-  desc: Two days of learning and sessions
-  startDate: 2017-7-20
-  endDate: 2017-7-21
-  link: https://twitter.com/TulsaTechFest
-  where: Tulsa, OK
-  tags: [in-person, conference]
 - title: AWS Summit - Chicago
   desc: |
     The AWS Summit brings together the cloud computing community to connect, collaborate and learn about AWS.
@@ -65,23 +58,6 @@
   link: https://www.vmworld.com/en/us/index.html
   where: Las Vegas
   tags: [in-person, conference]
-- title: .Net Conf
-  desc: |
-    .NET Conf is a free, 3 day virtual developer event co-organized by the .NET community and Microsoft. Over the course of the three days developers have a wide selection of live sessions that feature speakers from the community and .NET product teams. These are the experts in their field and it is a chance to learn, ask questions live, and get inspired for their next software project.
-    
-    Developers will learn to build for web, mobile, desktop, games, services, libraries and more for a variety of platforms and devices all with .NET. We’ll have presentations on .NET Core and ASP.NET Core, C#, F#, Roslyn, Visual Studio, Xamarin, and much more.
-  startDate: 2017-9-19
-  endDate: 2017-9-21
-  link: http://www.dotnetconf.net/
-  tags: [virtual, conference, free]
-- title: Strange Loop
-  desc: |
-    Strange Loop is a multi-disciplinary conference that brings together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, security, and the web.
-  startDate: 2017-9-28
-  endDate: 2017-9-30
-  link: https://thestrangeloop.com/
-  where: St Louis, MO
-  tags: [in-person, conference]
 - title: Hacktoberfest 2017
   desc: |
     Support open source and earn a limited edition T-shirt.
@@ -90,18 +66,6 @@
   endDate: 2017-10-31
   link: https://hacktoberfest.digitalocean.com/
   tags: [online, hackathon]
-- title: Little Rock Tech Fest
-  desc: |
-    Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
-    
-    Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
-    
-    This is our fifth year hosting the event. Will you join us?
-  startDate: 2017-10-05
-  endDate: 2017-10-06
-  link: http://www.lrtechfest.com/
-  where: Little Rock, AR
-  tags: [in-person, conference]  
 - title: 2017 Northwest Arkansas Technology Summit
   desc: |
     Northwest Arkansas Premier Technology and Innovation Summit. The NWA Technology Summit brings cutting-edge innovation to the latest thinking at the intersection of business and technology.  Want to explore how to innovate and use technology to succeed in the digital era?  Then the Summit is for you. Forward-thinking and practitioner-driven general session speakers and high value breakout sessions will deliver ways that you can effectively collaborate on innovative solutions to common business challenges and learn how technology is powering change and leveling the playing field. 
@@ -111,17 +75,6 @@
   where: Bentonville, AR
   tags: [in-person, conference]
   twitter: '@NWATech'
-- title: Dev Up
-  desc: |
-    ST. LOUIS DEVELOPER CONFERENCE
-    A THREE DAY EVENT FILLED WITH
-    KNOWLEDGE & NETWORKING OPPORTUNITIES
-  startDate: 2017-10-16
-  endDate: 2017-10-18
-  link: http://devupconf.org/
-  twitter: '@devupconf'
-  where: St Louis, MO
-  tags: [in-person, conference]  
 - title: DEVIntersection Fall 2017
   desc: |
     In today’s fast-paced world with technology changing rapidly, it’s a challenge to stay on top of everything new while mastering the fundamentals. This exciting event, now in it’s forth year, brings your favorite Microsoft leaders, engineers and industry experts together to educate, network, and share their expertise with you. Just this year, ASP.NET Core, SQL Server 2016, Visual Studio 2015, Windows 10 and SharePoint 2016 launched. The new release of Windows Server is on the horizon and open source is becoming the norm. The cloud is real and so is cloud scaling. Are you ready? Invest in your companies success – and in your career – at an event where questions are answered, strategies are defined and relationships are built.
@@ -223,7 +176,7 @@
 - title: DockerCon 2018
   desc: DockerCon is the community and container industry conference for makers and operators of next generation distributed apps built with containers. The three-day conference provides talks by practitioners, hands-on labs, an expo hall of Docker ecosystem innovators and great opportunities to share your experiences with other virtual container enthusiasts.
   startDate: 2018-06-12
-  endDate: 2017-06-14
+  endDate: 2018-06-14
   link: http://2018.dockercon.com/
   tags: [in-person, conference]
   where: San Franciso
@@ -231,11 +184,19 @@
   desc: |
     The Kansas City Developer Conference is a two-day, multi-track event covering all aspects of software development, design, and project management. We welcome speakers from all over the world who are industry experts that deliver breakout sessions and hands-on workshops to further our attendees’ knowledge and professional skills.
   startDate: 2018-07-12
-  endDate: 2017-07-12
+  endDate: 2018-07-12
   link: http://www.kcdc.info/
   where: Kansas City, MO
   tags: [in-person, conference]
   twitter: '@kc_dc'
+- title: Tulsa TechFest 2018
+  desc: Two days of learning and sessions
+  startDate: 2018-07-20
+  endDate: 2018-07-20
+  link: http://techfests.com/Tulsa/2018/default.aspx
+  twitter: '@TulsaTechFest'
+  where: Tulsa, OK
+  tags: [in-person, conference]
 - title: CoderCruise
   desc: |
     Tired of the usual web technology conference scene? Want a more inclusive experience that lets you get to know your fellow attendees and make connections? Well, CoderCruise was designed to be just this. It's a polyglot developer conference on a cruise ship! This year we will be taking a 5-day, 4-night cruise out of Ft. Lauderdale, FL that includes stops at Half Moon Cay and Nassau.
@@ -244,6 +205,15 @@
   link: https://www.codercruise.com/
   where: Sail from New Orleans
   tags: [in-person, conference]
+- title: .Net Conf
+  desc: |
+    .NET Conf is a free, 3 day virtual developer event co-organized by the .NET community and Microsoft. Over the course of the three days developers have a wide selection of live sessions that feature speakers from the community and .NET product teams. These are the experts in their field and it is a chance to learn, ask questions live, and get inspired for their next software project.
+    
+    Developers will learn to build for web, mobile, desktop, games, services, libraries and more for a variety of platforms and devices all with .NET. We’ll have presentations on .NET Core and ASP.NET Core, C#, F#, Roslyn, Visual Studio, Xamarin, and much more.
+  startDate: 2018-9-12
+  endDate: 2018-9-14
+  link: http://www.dotnetconf.net/
+  tags: [virtual, conference, free]
 - title: Microsoft Ignite
   desc: |
     Microsoft Ignite gives you five days of hands-on learning, industry insights, and direct access to product experts—all in one place. 
@@ -259,6 +229,37 @@
   link: https://ignite.microsoft.com/
   where: Orlando, FL
   tags: [in-person, conference]
+- title: Strange Loop
+  desc: |
+    Strange Loop is a multi-disciplinary conference that brings together the developers and thinkers building tomorrow's technology in fields such as emerging languages, alternative databases, concurrency, distributed systems, security, and the web.
+  startDate: 2018-09-26
+  endDate: 2018-09-28
+  link: https://thestrangeloop.com/
+  where: St Louis, MO
+  tags: [in-person, conference]
+- title: Little Rock Tech Fest
+  desc: |
+    Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
+    
+    Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
+    
+    This is our fifth year hosting the event. Will you join us?
+  startDate: 2018-10-04
+  endDate: 2018-10-05
+  link: http://www.lrtechfest.com/
+  where: Little Rock, AR
+  tags: [in-person, conference]  
+- title: Dev Up
+  desc: |
+    ST. LOUIS DEVELOPER CONFERENCE
+    A THREE DAY EVENT FILLED WITH
+    KNOWLEDGE & NETWORKING OPPORTUNITIES
+  startDate: 2018-10-08
+  endDate: 2018-10-10
+  link: http://devupconf.org/
+  twitter: '#devup2018'
+  where: St Louis, MO
+  tags: [in-person, conference]  
 - title: IT/Dev Connections 2018
   desc: Professional and uniquely personal, enjoy 3 days of deep-dive technical education!
   startDate: 2018-10-15
