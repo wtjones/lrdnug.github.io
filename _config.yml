@@ -91,6 +91,11 @@ sponsors:
     url: "http://www.postsharp.net/"
     description: "PostSharp is the #1 pattern-aware extension to C# and VB. It allows developers to eradicate boilerplate by offloading repeating work from humans to machines. Includes some the most common patterns and gives you the tools to build your own."
     level: "partner"
+  - name: "Redgate"
+    image: "/images/logos/rg-logo.png"
+    description: "Redgate is the leading Microsoft SQL Server tools vendor and the creator of the SQL Toolbelt."
+    url: "https://www.red-gate.com"
+    level: "partner"
 # valid display-locations are:
 #   innovationhub
 #   few
