@@ -1,9 +1,8 @@
 
 ---
-
 layout: post
+---
 title: Microsoft Azure Automation
-
 ---
 
 ### Details
