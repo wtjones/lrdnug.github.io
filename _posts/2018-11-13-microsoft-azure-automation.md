@@ -9,7 +9,7 @@ John Joyner will be talking about his experience automating Microsoft Azure
 
 ### About the Speaker
 
-About John Joyner
+John Joyner
 
 Senior Director at ClearPoint
 ### Note
