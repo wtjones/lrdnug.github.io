@@ -2,6 +2,7 @@
 layout: post
 title: Build a successful remote agile team in three easy steps!
 speaker: Paul Gower
+---
 
 ### Details
 Many agile coaches think it’s a prerequisite to be a co-located team to be successful. However, what if you have has remote workers or are considering adding them to your team but afraid it will only slow you down.
