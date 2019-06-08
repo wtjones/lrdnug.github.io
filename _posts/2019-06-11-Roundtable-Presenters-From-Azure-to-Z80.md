@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Roundtable Presenters: From Azure to Z80
+title: "Roundtable Presenters: From Azure to Z80"
 speakers: Abby Sims and Travis Jones
 ---
 
