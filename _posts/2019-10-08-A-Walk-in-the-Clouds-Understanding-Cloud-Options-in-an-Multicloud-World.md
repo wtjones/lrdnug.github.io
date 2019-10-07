@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Overcoming Delay - How The Best Developers Increase Productivity
+title: A Walk in the Clouds, Understanding Cloud Options in a Multicloud World
 speaker: Johnny Earnest
 ---
 
 ### Details
-We will discuss various types of cloud services offerings, and how to determine the best fit for each application. We’ll also discuss why using multiple cloud platforms, rather than picking one, is better for organizations
+Free craft beer! Plus, we will discuss various types of cloud services offerings, and how to determine the best fit for each application. We’ll also discuss why using multiple cloud platforms, rather than picking one, is better for organizations
 
 
 ### About the Speaker
