@@ -101,7 +101,7 @@ sponsors:
     description: "Packt's mission is to help the world put software to work in new ways."
     url: "https://www.packtpub.com/"
     level: "partner"
-    
+
 # valid display-locations are:
 #   innovationhub
 #   few
@@ -159,7 +159,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
