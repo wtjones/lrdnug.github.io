@@ -2,6 +2,7 @@
 layout: post
 title: Spicing up your Code with Curry
 speaker: Michael Collins
+---
 
 ### Details
 All encounters must begin with an introduction. This introduction is not to a tool or a new code library.We are not going to discuss a particular language. I want to introduce you to the functional programming paradigm. Except, we will not be diving in head first. Instead we will focus on just a single technique that demonstrates the mindset of functional programming, Currying. This would be similar to just dipping your toes into the pool of functional programming. There will be a bit of history, a review of everyday code, some curry ,and hopefully you depart with a new way to approach programming tasks
