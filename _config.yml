@@ -71,10 +71,15 @@ sponsors:
     description: "Redgate is the leading Microsoft SQL Server tools vendor and the creator of the SQL Toolbelt."
     url: "https://www.red-gate.com"
     level: "partner"
-    name: "packt"
+  - name: "packt"
     image: "/images/packt.jpg"
     description: "Packt's mission is to help the world put software to work in new ways."
     url: "https://www.packtpub.com/"
+    level: "partner"
+  - name: "NDepend"
+    image: "/images/logos/NDependLogo.png"
+    description: "NDepend is a Swiss Army Knife for .NET and .NET Core project teams. With its wide range of features, it gives deep insight into code bases and empowers developers, architects and executives to make intelligent decisions on projects."
+    url: "https://www.ndepend.com/"
     level: "partner"
 
 # valid display-locations are:
@@ -134,7 +139,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
