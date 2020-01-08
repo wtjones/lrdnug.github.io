@@ -9,15 +9,17 @@ layout: default
 		{{ content }}
 	</div>
 </article>
-{% assign pageSeconds = (page.date | date: "%s" | plus: 0) %}
-{% assign siteSeconds = (site.time | date: "%s" | plus: 0) %}
+{% raw %}
+{% assign pageSeconds = page.date | date: "%s" | plus: 0 %}
+{% assign siteSeconds = site.time | date: "%s" | plus: 0 %}
 {% if pageSeconds >= siteSeconds %}
+{% endraw %}
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
 	<a href="https://www.meetup.com/Little-Rock-NET-User-Group/" class="btn btn-primary btn-lg btn-block">RSVP on Meetup</a>
 </div>
 </div>
-{% endif %}
+
 &nbsp;
 {% include sponsors.html %}
 {% include training-events-post.html %}
