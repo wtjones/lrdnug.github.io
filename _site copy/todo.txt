@@ -1,5 +1,0 @@
-1. Possible show the current/top meeting differently 
-   a. use logic to only show next upcoming (so hide future
-   b. also if no future meeting avail do a include to ask for signing up for newsletter
-2. About us / brief intro
-3. Attendance information to show how much interest
