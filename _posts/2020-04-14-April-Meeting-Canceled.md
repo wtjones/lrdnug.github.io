@@ -1,6 +1,6 @@
 ---
 layout: post
-title: April Meeting Cancelled	
+title: April Meeting Canceled	
 speaker: NA
 ---
 
